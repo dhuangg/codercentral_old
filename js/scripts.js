@@ -5,19 +5,28 @@
 
 
 jQuery(document).ready(function(){
+
+
+
+});
+
+function introduction(){
     var introText=$(".element");
-    $(function(){
-        introText.typed({
-            strings: ["{ Coder.Central();"],
-            // typing speed
-            typeSpeed: 100,
-            // time before typing starts
-            startDelay: 500,
-            loopCount: false,
-            // show cursor
-            showCursor: true
-        });
+    var outro=$('.outro');
+    introText.typed({
+        strings: ["{ Coder.Central();"],
+        // typing speed
+        typeSpeed: 100,
+        // time before typing starts
+        startDelay: 500,
+        loopCount: false,
+        // show cursor
+        showCursor: true,
+        callback:function(){
+            $('.typed-cursor').fadeOut('medium');
+        }
     });
+
     var winHeight= $(window).height();
     //var winWidth= $(window).width();
     var introHeight=(winHeight/2-100);
@@ -26,8 +35,7 @@ jQuery(document).ready(function(){
     });
     setTimeout(function(){
         introText.fadeOut('medium');
-        $('.typed-cursor').fadeOut('medium');
-        $('.outro').typed({
+        outro.typed({
             strings: [">Be Inspired."],
             // typing speed
             typeSpeed: 100,
@@ -35,7 +43,12 @@ jQuery(document).ready(function(){
             startDelay: 200,
             loopCount: false,
             // show cursor
-            showCursor: true
+            showCursor: true,
+            callback: function() {
+                setTimeout(function(){
+                    $('#intro').fadeOut();
+                },2000);
+            }
         });
     },5000);
-});
+}
