@@ -334,14 +334,17 @@ a:hover{
 }
 
 .abt{
-    background-color:white;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .home-abt{
-    padding-top:5%;
-    height:300px;
+    padding-top:8%;
+    padding-bottom:8%;
     color:rgb(52,50,54);
     font-size:50px;
+    text-align:center;
 }
 
 #contact-tile{

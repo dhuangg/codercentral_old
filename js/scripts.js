@@ -29,7 +29,7 @@ function introduction(){
         // show cursor
         showCursor: true,
         callback:function(){
-            $('.typed-cursor').fadeOut('medium');
+            $('.typed-cursor').fadeOut('fast');
         }
     });
 
@@ -97,14 +97,11 @@ function homeAnimation(){
             $(this).animate({
                 'font-size':'40px'
             },100);
-            $(this).parent().addClass('shaded');
-
         });
         tile.on('mouseout','.flip-text',function(){
             $(this).animate({
                 'font-size':'30px'
             },100);
-            $(this).parent().removeClass('shaded');
         });
     }else{
         aboutH=winHeight*.25;
