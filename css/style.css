@@ -12,8 +12,7 @@
 }
 
 body{
-    background: #000;
-    padding-top: 10px;
+
 }
 
 #intro{
@@ -28,8 +27,24 @@ body{
     display:inline;
     font-size:50px;
 }
-
-
+.paragraph{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+}
+#htmlColor{
+    margin:0px;
+    padding-left: 10px;
+    border:0px;
+    background-color:#F66337;
+}
+#htmlFont{
+    font-family: archiveregular;
+    text-align: left;
+    font-size: 150px;
+    color: white;
+    margin-top: 0px;
+}
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;

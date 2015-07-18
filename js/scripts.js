@@ -5,7 +5,7 @@
 
 
 jQuery(document).ready(function(){
-
+    htmlCourse();
     introduction();
 
 });
@@ -51,4 +51,12 @@ function introduction(){
             }
         });
     },5000);
+}
+
+function htmlCourse(){
+    var winHeight= $(window).height();
+    var actualHeight=(winHeight/3*2);
+    $('#htmlColor').css({
+       'height':actualHeight+'px'
+    });
 }
