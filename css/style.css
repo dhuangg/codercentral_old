@@ -11,8 +11,177 @@
 
 }
 
+/* Large desktop */
+@media (min-width: 1200px) {
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        padding-left: 70px;  
+        padding-right: 300px;
+    }
+    #htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    #htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #about-tile{
+        height:175px;
+    }
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        padding-left: 70px;  
+        padding-right: 250px;
+    }
+    #htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    #htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #about-tile{
+        height:90px;
+    }
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        padding-left: 70px;  
+        padding-right: 200px;
+    }
+    #htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    #htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 75px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    #htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 75px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        padding-left: 70px;  
+        padding-right: 100px;
+    }
+    #htmlDiv{
+        margin:0px;
+        padding-left: 25px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    #htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    #htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
+}
+
 body{
 
+    background: rgb(52,50,54);
+    padding-top: 10px;
+    font-family:archiveregular, san-serif;
+}
+
+.home-bg{
+    /*background: rgb(52,50,54);*/
+}
+
+#home{
+    padding-top:5%;
+}
+
+.title{
+    text-align:center;
+    height:175px;
+}
+
+
+#about-tile{
+
+    background-color: rgb(210,181,146);
+>>>>>>> 464293539612e1605bc23d8ba6eb4aa5ee5b2d5a
 }
 
 #intro{
@@ -20,6 +189,9 @@ body{
     position:relative;
 }
 
+.tile{
+    padding:0;
+}
 
 .element, .outro{
     position:relative;
@@ -27,23 +199,13 @@ body{
     display:inline;
     font-size:50px;
 }
-.paragraph{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 25px;
-    padding-left: 30px;
+#body{
+background-color: white;
+
 }
-#htmlColor{
-    margin:0px;
-    padding-left: 10px;
-    border:0px;
-    background-color:#F66337;
-}
-#htmlFont{
-    font-family: archiveregular;
-    text-align: left;
-    font-size: 125px;
-    color: white;
-    margin-top: 0px;
+#htmlDiv{
+
+    margin-top: -10px;
 }
 .typed-cursor{
     opacity: 1;
