@@ -6,11 +6,33 @@
 
 jQuery(document).ready(function(){
 
-    htmlCourse();
+//    htmlCourse();
+
+    var winWidth= $(window).width();
 
     introduction();
     setTimeout(function(){
-        homeAnimation()
+        homeAnimation();
+        var aboutTile=$('#about-tile').height();
+        var halfAbout=aboutTile/2;
+        var tile=$('.tile');
+        tile.css({
+            'height':halfAbout+'px'
+        });
+
+        tile.on("mouseenter",'.flip-text',function(){
+            $(this).animate({
+                'font-size':'40px'
+            },100);
+        });
+        tile.on('mouseout','.flip-text',function(){
+            $(this).animate({
+                'font-size':'30px'
+            },100);
+        });
+        if(winWidth>757){
+
+        }
     },8000);
 });
 
@@ -51,7 +73,7 @@ function introduction(){
             callback: function() {
                 setTimeout(function(){
                     $('#intro').fadeOut();
-                },1000);
+                },500);
             }
         });
     },5000);

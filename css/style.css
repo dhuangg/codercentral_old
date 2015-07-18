@@ -19,15 +19,14 @@
         padding-left: 70px;  
         padding-right: 300px;
     }
-    #htmlDiv{
+    .htmlDiv{
         margin:0px;
         padding-left: 50px;
         border:0px; 
-        background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #htmlh1{
+    .htmlh1{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -36,7 +35,7 @@
         padding-left: 65px;
 
     }
-    #htmlh1_2{
+    .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -49,7 +48,7 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
     #about-tile{
-        height:175px;
+
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -57,7 +56,7 @@
         padding-left: 70px;  
         padding-right: 250px;
     }
-    #htmlDiv{
+    .htmlDiv{
         margin:0px;
         padding-left: 50px;
         border:0px; 
@@ -65,7 +64,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #htmlh1{
+    .htmlh1{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -74,7 +73,7 @@
         padding-left: 65px;
 
     }
-    #htmlh1_2{
+    .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -87,15 +86,15 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
     #about-tile{
-        height:90px;
+
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 70px;  
-        padding-right: 200px;
+        padding-right: 150px;
     }
-    #htmlDiv{
+    .htmlDiv{
         margin:0px;
         padding-left: 50px;
         border:0px; 
@@ -103,7 +102,7 @@
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    #htmlh1{
+    .htmlh1{
         font-family: archiveregular;
         text-align: left;
         font-size: 75px;
@@ -112,7 +111,7 @@
         padding-left: 65px;
 
     }
-    #htmlh1_2{
+    .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 75px;
@@ -130,7 +129,7 @@
         padding-left: 70px;  
         padding-right: 100px;
     }
-    #htmlDiv{
+    .htmlDiv{
         margin:0px;
         padding-left: 25px;
         border:0px; 
@@ -138,7 +137,7 @@
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    #htmlh1{
+    .htmlh1{
         font-family: archiveregular;
         text-align: left;
         font-size: 37px;
@@ -147,7 +146,7 @@
         padding-left: 65px;
 
     }
-    #htmlh1_2{
+    .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 37px;
@@ -164,6 +163,10 @@ body{
     font-family:archiveregular, san-serif;
 }
 
+a{
+
+}
+
 .home-bg{
     /*background: rgb(52,50,54);*/
 }
@@ -172,25 +175,42 @@ body{
     padding-top:5%;
 }
 
-.title{
+.tile{
     text-align:center;
-    height:175px;
+    padding:0;
+    margin:0;
+    padding-top:40%;
 }
 
+.row{
+    margin:0;
+    padding:0;
+}
 
 #about-tile{
+    position:relative;
+}
 
+#contact-tile{
     background-color: rgb(210,181,146);
 >>>>>>> 464293539612e1605bc23d8ba6eb4aa5ee5b2d5a
+}
+
+#register-tile{
+    background-color: rgb(45,99,99);
+}
+
+#blog-tile{
+    background-color: rgb(202,131,108);
+}
+
+#courses-tile{
+    background-color: rgb(61,125,147);
 }
 
 #intro{
     text-align:center;
     position:relative;
-}
-
-.tile{
-    padding:0;
 }
 
 .element, .outro{
@@ -199,14 +219,71 @@ body{
     display:inline;
     font-size:50px;
 }
+
+
+
+#java{
+    background-color: #353070;
+    color:white;
+}
 #body{
 background-color: white;
+padding-top:0px;
+}
+#python{
+    color:#FFD03F;
+    background-color: #3773A7;
+}
+#html{
+    background-color:#F66337;
+    color:white;
+}
+#creamColor{
+  /*  background-color: #EEE3C3; ---> cream color */
+    background-color: #E9EAED;  /*  ---> messenger chat color    */
+    padding-left: 45px;
+}
+.coveredTopics{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 100px;
+}
+.footers{
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+#footersPython{
+    text-align: right;
+    margin-bottom: 0px;
+    color:#FFD03F;
+    background-color: #3773A7;
+    padding-right: 50px;
 
+}
+#footersJava{
+    text-align: right;
+    margin-bottom: 0px;
+    background-color: #353070;
+    color:white;
+    padding-right: 50px;
+}
+#footersHtml{
+    text-align: right;
+    margin-bottom: -5px;
+    background-color:#F66337;
+    color:white;
+    padding-right: 50px;
 }
 #htmlDiv{
-
     margin-top: -10px;
 }
+
+
+
+
+
+
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
