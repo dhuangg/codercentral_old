@@ -11,9 +11,53 @@
 
 }
 
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+    #about-tile{
+        height:175px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #about-tile{
+        height:90px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
 body{
-    background: #000;
+    background: rgb(52,50,54);
     padding-top: 10px;
+    font-family:archiveregular, san-serif;
+}
+
+.home-bg{
+    /*background: rgb(52,50,54);*/
+}
+
+#home{
+    padding-top:5%;
+}
+
+.title{
+    text-align:center;
+    height:175px;
+}
+
+
+#about-tile{
+
+    background-color: rgb(210,181,146);
 }
 
 #intro{
@@ -21,6 +65,9 @@ body{
     position:relative;
 }
 
+.tile{
+    padding:0;
+}
 
 .element, .outro{
     position:relative;
