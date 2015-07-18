@@ -63,6 +63,7 @@
 
 body{
     font-family:archiveregular, san-serif;
+    background: #ffffff;
 }
 
 a{
@@ -88,6 +89,14 @@ a:hover{
 }
 
 .tile{
+.element, .outro{
+    position:relative;
+    color:white;
+    display:inline;
+    font-size:50px;
+}
+
+#intro{
     text-align:center;
     padding:0;
     margin:0;
@@ -103,6 +112,9 @@ a:hover{
     position:relative;
 }
 
+.emailBar{
+    font-size:55px;
+}
 #aboutInfo{
     position: absolute;
     padding:1%;
@@ -146,13 +158,90 @@ a:hover{
     position:relative;
 }
 
-.element, .outro{
-    position:relative;
-    color:white;
-    display:inline;
-    font-size:50px;
+.contactHeading{
+    height:300px;
+    padding-top: 60px;
+    text-align: left;
+    padding-left: 100px;
+    color:black;
+    background: rgb(210,181,146);
+    font-size: 150px;
 }
 
+@media (min-width: 992px) and (max-width: 1170px){
+    .emailBar{
+        font-size:40px;
+    }
+
+    .icon{
+        height:40px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 60px;
+        padding-left: 100px;
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 885px) and (max-width: 992px){
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 60px;
+        padding-left: 50px;
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 573px) and (max-width: 884px){
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:200px;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 572px){
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 80px;
+    }
+}
 
 .typed-cursor{
     opacity: 1;
