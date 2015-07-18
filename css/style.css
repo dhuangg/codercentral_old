@@ -89,6 +89,10 @@ a:hover{
 }
 
 .tile{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
 .element, .outro{
     position:relative;
     color:white;
