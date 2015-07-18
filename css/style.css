@@ -76,26 +76,31 @@ body{
     font-size:50px;
 }
 
-#course-header{
-    color: white;
-    margin-top: 0px;
-    background-color: #23C3CD;
-    padding-left: 100px;
-    padding-top: 60px;
-    margin:-10px;
-    height: 500px;
-}
+@media (min-width: 1200px){
+    #course-header{
+        color: white;
+        margin-top: 0px;
+        background-color: #23C3CD;
+        padding-left: 100px;
+        padding-top: 60px;
+        margin:-10px;
+        height: 500px;
+    }
+    #course-title{
+        font-family: archiveregular;
+        font-size: 150px;
+        padding-right: 400px;
+        padding-bottom: 50px;
+    }
+    #course-statement{
+        padding-right: 400px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
 
-#course-title{
-    font-family: archiveregular;
-    font-size: 150px;
-    padding-right: 400px;
-    <!--padding-bottom: 50px;-->
-}
+@media (min-wdth: 320px) and (max-width: 780px) {
 
-#course-statement{
-    padding-right: 400px;
-    padding-left: 10px;
+
 }
 
 .circle{
@@ -112,14 +117,23 @@ body{
 
 #python-course{
     background-color: #66B58C;
+    position: absolute;
+    top: 560px;
+    left: 470px;
 }
 
 #cplusplus-course{
     background-color: #66B58C;
+    position: absolute;
+    top: 1000px;
+    left: 400px;
 }
 
 #webdev-course{
     background-color: #66B58C;
+    position: absolute;
+    top: 630px;
+    right: 350px;
 }
 
 #java-course{
