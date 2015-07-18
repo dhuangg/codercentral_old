@@ -19,14 +19,14 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
     #about-tile{
-        height:175px;
+
     }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
     #about-tile{
-        height:90px;
+
     }
 }
 
@@ -41,6 +41,10 @@ body{
     font-family:archiveregular, san-serif;
 }
 
+a{
+
+}
+
 .home-bg{
     /*background: rgb(52,50,54);*/
 }
@@ -49,24 +53,41 @@ body{
     padding-top:5%;
 }
 
-.title{
+.tile{
     text-align:center;
-    height:175px;
+    padding:0;
+    margin:0;
+    padding-top:40%;
 }
 
+.row{
+    margin:0;
+    padding:0;
+}
 
 #about-tile{
+    position:relative;
+}
 
+#contact-tile{
     background-color: rgb(210,181,146);
+}
+
+#register-tile{
+    background-color: rgb(45,99,99);
+}
+
+#blog-tile{
+    background-color: rgb(202,131,108);
+}
+
+#courses-tile{
+    background-color: rgb(61,125,147);
 }
 
 #intro{
     text-align:center;
     position:relative;
-}
-
-.tile{
-    padding:0;
 }
 
 .element, .outro{
