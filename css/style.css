@@ -13,6 +13,36 @@
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        padding-left: 70px;  
+        padding-right: 300px;
+    }
+    .htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
     .tile{
         padding-top:40% !important;
     }
@@ -21,6 +51,25 @@
         height:80px;
     }
 
+    /* Contact us page */
+    .emailBar{
+        font-size:50px;
+    }
+
+   .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 30px;
+        padding-left: 100px;
+        font-size: 150px;
+        text-align: left;
+        color:black;
+        background: rgb(210,181,146);
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -30,6 +79,59 @@
     }
     #aboutInfo{
         height:80px;
+    }
+
+
+    /* Contact us page */
+    .emailBar{
+        font-size:40px;
+        text-align: center;
+    }
+
+    .icon{
+        height:40px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 60px;
+        padding-left: 100px;
+        font-size: 90px;
+        text-align: left;
+        color:black;
+        background: rgb(210,181,146);
+    }
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        padding-left: 70px;  
+        padding-right: 250px;
+    }
+    .htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 125px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
     }
 }
 
@@ -46,10 +148,92 @@
         height:40px;
     }
 
+    /* Contact us page */
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 60px;
+        padding-left: 50px;
+        font-size: 80px;
+        text-align: left;
+        color:black;
+        background: rgb(210,181,146);
+    }
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        padding-left: 70px;  
+        padding-right: 150px;
+    }
+    .htmlDiv{
+        margin:0px;
+        padding-left: 50px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 75px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 75px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    .paragraph{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        padding-left: 70px;  
+        padding-right: 100px;
+    }
+    .htmlDiv{
+        margin:0px;
+        padding-left: 25px;
+        border:0px; 
+        background-color:#F66337;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .htmlh1{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+
+    }
+    .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;  
+        padding-left: 65px;
+    }
     .tile{
         padding-top:23% !important;
     }
@@ -59,11 +243,32 @@
     #aboutInfo{
         height:40px;
     }
+
+    /* Contact us page */
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:250px;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-size: 80px;
+        text-align: left;
+        color:black;
+        background: rgb(210,181,146);
+    }
 }
 
 body{
+    background: rgb(52,50,54);
     font-family:archiveregular, san-serif;
-    background: #ffffff;
 }
 
 a{
@@ -116,9 +321,7 @@ a:hover{
     position:relative;
 }
 
-.emailBar{
-    font-size:55px;
-}
+
 #aboutInfo{
     position: absolute;
     padding:1%;
@@ -131,14 +334,17 @@ a:hover{
 }
 
 .abt{
-    background-color:white;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .home-abt{
-    padding-top:5%;
-    height:300px;
+    padding-top:8%;
+    padding-bottom:8%;
     color:rgb(52,50,54);
     font-size:50px;
+    text-align:center;
 }
 
 #contact-tile{
@@ -162,33 +368,52 @@ a:hover{
     position:relative;
 }
 
-.contactHeading{
-    height:300px;
-    padding-top: 60px;
-    text-align: left;
+.element, .outro{
+    position:relative;
+    color:white;
+    display:inline;
+    font-size:50px;
+}
+
+
+
+#java{
+    background-color: #353070;
+    color:white;
+}
+#body{
+background-color: white;
+padding-top:0px;
+}
+#python{
+    color:#FFD03F;
+    background-color: #3773A7;
+}
+#html{
+    background-color:#F66337;
+    color:white;
+}
+#creamColor{
+  /*  background-color: #EEE3C3; ---> cream color */
+    background-color: #E9EAED;  /*  ---> messenger chat color    */
+    padding-left: 45px;
+}
+.coveredTopics{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-left: 100px;
-    color:black;
-    background: rgb(210,181,146);
-    font-size: 150px;
 }
-
-@media (min-width: 992px) and (max-width: 1170px){
-    .emailBar{
-        font-size:40px;
-    }
-
-    .icon{
-        height:40px;
-        width:auto;
-    }
-
-    .contactHeading{
-        height:300px;
-        padding-top: 60px;
-        padding-left: 100px;
-        font-size: 120px;
-    }
+.footers{
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 0px;
 }
+#footersPython{
+    text-align: right;
+    margin-bottom: 0px;
+    color:#FFD03F;
+    background-color: #3773A7;
+    padding-right: 50px;
+
 
 
 #course-body{
@@ -278,39 +503,28 @@ a:hover{
         padding-left: 50px;
         font-size: 120px;
     }
+
+}
+#footersJava{
+    text-align: right;
+    margin-bottom: 0px;
+    background-color: #353070;
+    color:white;
+    padding-right: 50px;
+}
+#footersHtml{
+    text-align: right;
+    margin-bottom: -5px;
+    background-color:#F66337;
+    color:white;
+    padding-right: 50px;
+}
+#htmlDiv{
+    margin-top: -10px;
 }
 
-@media (min-width: 573px) and (max-width: 884px){
-    .emailBar{
-        font-size:50px;
-        text-align: center;
-    }
 
-    .icon{
-        height:50px;
-        width:auto;
-    }
-
-    .contactHeading{
-        height:200px;
-        padding-top: 30px;
-        padding-left: 20px;
-        font-size: 80px;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 572px){
-    .emailBar{
-        font-size:50px;
-        text-align: center;
-    }
-
-    .icon{
-        height:50px;
-        width:auto;
-    }
-
-    .contactHeading{
+.contactHeading{
         height:300px;
         padding-top: 30px;
         padding-left: 20px;
