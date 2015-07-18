@@ -16,6 +16,24 @@ body{
     font-size:50px;
 }
 
+.course-box{
+
+
+}
+
+.course-circle{
+    position:relative;
+    border-radius:50%;
+    background-color:#66B58C;
+    width:200px;
+    height:200px;
+    font-family:18px;
+}
+
+#python-course{
+
+}
+
 
 .typed-cursor{
     opacity: 1;
