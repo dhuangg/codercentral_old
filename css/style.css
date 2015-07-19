@@ -13,6 +13,9 @@
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    #home{
+        padding-top:4.5%;
+    }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
@@ -74,6 +77,9 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
+    #home{
+        padding-top:4.5%;
+    }
     .tile{
         padding-top:40% !important;
     }
@@ -137,6 +143,12 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+    #home{
+        padding-top:5%;
+    }
+    #welcome{
+        font-size:20px;
+    }
     .tile{
         padding-top:30% !important;
     }
@@ -203,6 +215,12 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    #home{
+        padding-top:5%;
+    }
+    #welcome{
+        font-size:15px;
+    }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
@@ -271,6 +289,10 @@ body{
     font-family:archiveregular, san-serif;
 }
 
+p{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 a{
     color: rgb(52,50,54);
     text-decoration: none;
@@ -289,8 +311,16 @@ a:hover{
     cursor:pointer;
 }
 
-#home{
-    padding-top:5%;
+.home-sec-title{
+    text-align:center;
+    margin:5%;
+}
+
+#girlsTalking{
+    float:left;
+    width:40%;
+    margin-right:5%;
+    height:auto;
 }
 
 .tile{
@@ -300,6 +330,12 @@ a:hover{
     position: relative;
     color:white;
 }
+
+.home-mission{
+    background-color:white;
+
+}
+
 .element, .outro{
     position:relative;
     color:white;

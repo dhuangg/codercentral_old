@@ -9,6 +9,43 @@
 <body>
 <div class="home-bg">
     <div id="home" class='row flip-panel' style="display:none">
+        <!---------------------------------------------------navbar stuff--------------------------------------------->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="homepage.html">Coder Central</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About Us<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Register</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                    <!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+        </nav>
+        <!---------------------------------------------------navbar stuff--------------------------------------------->
         <div id="aboutInfo"><h3 id="welcome" style="display:none">Welcome to Coder Central.</h3>
         </div>
         <img id='about-tile' src="images/dhuang.jpeg" class="col-md-8 col-xs-12" style="padding:0"/>
@@ -18,28 +55,62 @@
             <div id="courses-tile" class="tile "><h3 class="flip-text" style="margin:0">Courses</h3></div>
         </div>
         <div class="col-md-2 col-xs-6"style="padding:0; margin:0;" >
-            <div id="blog-tile" class="tile "><h3 class="flip-text" style="margin:0">Blog</h3></div>
+            <a href="https://codecamp15.wordpress.com" target="_blank"><div id="blog-tile" class="tile "><h3 class="flip-text" style="margin:0">
+                Blog</h3></div></a>
             <a href="contact.html"><div id="contact-tile" class="tile"><h3 class="flip-text" style="margin:0">
                 Contact <br> Us</h3></div></a>
         </div>
-        <hr>
+
         <div class="row abt " style="background-color:white">
             <div class="abt container">
+                <hr>
                 <div class=" col-md-3 col-xs-1 col-md-offset-1 home-abt">
                     <div class="glyphicon glyphicon-heart"></div>
-                    <h3>Personalized relationships</h3>
+                    <h4>Personalized relationships</h4>
                 </div>
                 <div class=" col-xs-2 col-md-3 col-md-offset-1 home-abt">
                     <div class="glyphicon glyphicon-map-marker"></div>
-                    <h3>Pleasanton, <br> California </h3>
+                    <h4>Pleasanton, <br> California </h4>
                 </div>
                 <div class=" col-md-3 col-xs-2 col-md-offset-1 home-abt">
                     <div class="glyphicon glyphicon-ok"></div>
-                    <h3> practical, challenging,<br> and engaging</h3>
+                    <h4> practical, challenging,<br> and engaging</h4>
                 </div>
             </div>
         </div>
 
+        <div class="row home-mission">
+            <div class="container">
+                <hr>
+                <h1 class="home-sec-title"><span class="glyphicon glyphicon-education"></span> Education for the 21st Century</h1>
+                <div class="col-md-6">
+                    <img id='girlsTalking'src="images/girlsTalking.jpg" alt="Student Discussions"/>
+                    <p>What does it take to be a productive member of today's economy?
+                    A college degree? A master's degree? Or perhaps an excellent GPA
+                    from high school and college? The reality is, it takes more than
+                    just a prestigious degree or a stellar GPA. More than ever now,
+                    companies are looking for creative people with a drive to solve
+                    problems, qualities that are not taught in school.</p>
+
+                    <p>If anything, what we see in school today is doing the exact opposite.
+                    Students are conditioned to fear failure as it comes with associated
+                    punishments such as a bad grade or peer judgement. This not only
+                    discourages students to continue to try, but also destroys their creative
+                    potentials.</p>
+                </div>
+                <div class="col-md-offset-1 col-md-5">
+                    <p>Creativity is born from mistakes and learning from them. At Coder Central,
+                    courses are revolved around reviving the innate creativity and curiosity
+                    that people are born with. Small class sizes ensures that students receive
+                    personalized attention and for them to feel like they are in a safe environment.
+                    Teachers at Coder Central place a heavy emphasis on teaching what students should
+                    know as opposed to telling them what they should know. </p>
+                    <p>Curriculums are designed with the intention of challenging students and fostering
+                    their ability and motivation to learn on their own. This is something that we believe
+                    is far more valuable than just telling students what they should know. </p>
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
