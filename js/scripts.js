@@ -75,12 +75,7 @@ function homeAnimation(){
     var winWidth= $(window).width();
     var aboutH;
     $('#home').fadeIn(2000);
-    var aboutTile=$('#about-tile').height();
-    var halfAbout=aboutTile/2;
-    var tile=$('.tile');
-    tile.css({
-        'height':halfAbout+'px'
-    });
+
     setTimeout(function(){
         $('#aboutInfo').animate({
             "width":'40%'
@@ -88,6 +83,13 @@ function homeAnimation(){
             $('#welcome').fadeIn();
         });
     },1000);
+    var aboutTile=$('#about-tile').height();
+    var halfAbout=aboutTile/2;
+    var halfAbouter=halfAbout+20;
+    var tile=$('.tile');
+    tile.css({
+        'height':halfAbout+'px'
+    });
     if(winWidth>757){
         aboutH=winHeight*.75;
         $('#aboutInfo').css({
@@ -95,13 +97,15 @@ function homeAnimation(){
         });
         tile.on("mouseenter",'.flip-text',function(){
             $(this).animate({
-                'font-size':'40px'
+                'font-size':'30px'
             },100);
+            $(this).parent().addClass('shaded');
         });
         tile.on('mouseout','.flip-text',function(){
             $(this).animate({
-                'font-size':'30px'
+                'font-size':'22px'
             },100);
+            $(this).parent().removeClass('shaded');
         });
     }else{
         aboutH=winHeight*.25;
