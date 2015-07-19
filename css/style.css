@@ -333,7 +333,9 @@ a:hover{
 
 .home-mission{
     background-color:white;
-
+    padding-bottom:5%;
+    padding-top:5%;
+    line-height: 200%;
 }
 
 .element, .outro{
@@ -378,11 +380,20 @@ a:hover{
 }
 
 .home-abt{
-    padding-top:8%;
-    padding-bottom:8%;
+    padding-top:5%;
+    padding-bottom:2%;
     color:rgb(52,50,54);
     font-size:50px;
     text-align:center;
+}
+
+.footer{
+    padding-left:15%;
+    padding-right: 15%;
+}
+
+.footer-title{
+    color:white;
 }
 
 #contact-tile{
