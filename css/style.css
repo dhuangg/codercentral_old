@@ -426,7 +426,7 @@ a:hover{
 
 
 #java{
-    background-color: #353070;
+    background-color: rgb(67,51, 128);
     color:white;
 }
 #body{
@@ -444,7 +444,8 @@ padding-top:0px;
 #creamColor{
   /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
-    padding-left: 45px;
+    padding-left: 0px;
+    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -461,7 +462,7 @@ padding-top:0px;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
-
+    margin-top: 50px;
 }
 #footersJava{
     text-align: right;
@@ -480,10 +481,60 @@ padding-top:0px;
 #htmlDiv{
     margin-top: -10px;
 }
+#sidImg{
+    width:275px;
+    height:auto;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.flip-container {
+    perspective: 1000;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
 
+.flip-container, .front, .back {
+    width: 320px;
+    height: 480px; 
+    transform-origin:50% 50%;
+}
 
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
 
+    position: relative;
+}
 
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: #3773A7;
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+        background-color: #3773A7;
+
+}
 
 
 
