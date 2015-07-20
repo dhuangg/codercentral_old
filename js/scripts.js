@@ -88,11 +88,12 @@ function homeAnimation(){
         //var halfAbout=aboutTile/2;
         var halfAbouter=winHeight*.4198;
         var tile=$('.tile');
-        tile.css({
-            'height':halfAbouter+'px'
-        });
-        if(winWidth>757){
 
+        if(winWidth>757){
+            halfAbouter=winHeight*.4198;
+            tile.css({
+                'height':halfAbouter+'px'
+            });
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
                     'font-size':'30px'
@@ -111,6 +112,10 @@ function homeAnimation(){
                 'top': aboutH +'px'
             });
         }else{
+            halfAbouter=winHeight*.25;
+            tile.css({
+                'height':halfAbouter+'px'
+            });
             aboutH=winHeight*.25;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
