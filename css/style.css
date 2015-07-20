@@ -413,7 +413,7 @@ padding-top:0px;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
-
+}
 
 
 #course-body{
@@ -525,13 +525,13 @@ padding-top:0px;
 
 
 .contactHeading{
-        height:300px;
-        padding-top: 30px;
-        padding-left: 20px;
-        font-size: 80px;
-    }
-
+    height:300px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 80px;
 }
+
+
 
 .typed-cursor{
     opacity: 1;
