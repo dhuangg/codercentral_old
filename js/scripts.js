@@ -8,9 +8,6 @@ jQuery(document).ready(function(){
 //    htmlCourse();
 
     var winWidth= $(window).width();
-    if(winWidth<757){
-        //$('#home').removeClass('row');
-    }
     homeAnimation();
     introduction();
 
@@ -84,16 +81,9 @@ function homeAnimation(){
                 $('#welcome').fadeIn();
             });
         },1000);
-        var aboutTile=$('#about-tile').height();
-        //var halfAbout=aboutTile/2;
-        var halfAbouter=winHeight*.4198;
         var tile=$('.tile');
 
         if(winWidth>757){
-            halfAbouter=winHeight*.4198;
-            tile.css({
-                'height':halfAbouter+'px'
-            });
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
                     'font-size':'30px'
@@ -112,10 +102,6 @@ function homeAnimation(){
                 'top': aboutH +'px'
             });
         }else{
-            halfAbouter=winHeight*.25;
-            tile.css({
-                'height':halfAbouter+'px'
-            });
             aboutH=winHeight*.25;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
