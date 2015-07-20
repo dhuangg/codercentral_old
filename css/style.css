@@ -47,7 +47,8 @@
         padding-left: 65px;
     }
     .tile{
-        padding-top:40% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
 
     #aboutInfo{
@@ -81,7 +82,8 @@
         padding-top:3.9%;
     }
     .tile{
-        padding-top:40% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
     #aboutInfo{
         height:80px;
@@ -150,7 +152,8 @@
         font-size:20px;
     }
     .tile{
-        padding-top:30% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
     #contact-tile{
         font-size:20px;
@@ -253,7 +256,8 @@
         padding-left: 65px;
     }
     .tile{
-        padding-top:20% !important;
+        padding-top:30% !important;
+        padding-bottom:30% !important;
     }
     #contact-tile{
         font-size:20px;
@@ -322,7 +326,7 @@ a:hover{
 }
 
 .tile{
-    margin:0;
+    margin-top:2%;
     padding:0;
     text-align:center;
     position: relative;
