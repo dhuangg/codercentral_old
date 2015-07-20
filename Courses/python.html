@@ -7,6 +7,41 @@
         <link href="../css/style.css" type="text/css" rel="stylesheet"/>
     </head>
     <body id="body">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../homepage.html">Coder Central</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About Us<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Register</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="webdesign.html">Webdesign</a></li>
+                                <li><a href="java.html">Java</a></li>
+                                <li><a href="python.html">Python</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div><!-- /.container-fluid -->
+            </div>
+        </nav>
         <div class="htmlDiv" id="python">
             <h1 class="htmlh1" id="python">Python() }</h1>
             <p class="paragraph">Want to learn your first time programming language but don’t know where to start? Or have you heard of the many benefits that come with learning Python? Then this is the course for you. The instructor will teach you the fundamentals of Python, equipping you with an incredibly empowering skill, possibly changing how you look at the world. Use the skills you learned to create all sorts of programs for your day to day lives.</p>
@@ -14,56 +49,90 @@
             <p class="paragraph">No previous experience necessary</p>
         </div>
         <br>
-        <div id="creamColor" class="container paragraph">
+        <div id="creamColor" class="container-fluid paragraph">
             
-
-
-<div class="row">
-  <div class="col-md-8">.col-md-8</div>
-  <div class="col-md-4">.col-md-4</div>
-</div>
-            <div class="row">
-
-
-
-                <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
+           <div class="row">
+                <div class="flip-container col-md-3" style="margin-left: 20px"ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper">
                         <div class="front">
-                <!-- front content -->
+                            <h1 style="text-align:center; color:white; padding-top:30px">Instructor</h1>
                         </div>
                         <div class="back">
+                            <h1 style="text-align:center; color:white;">Sidd Desai</h1>
                             <img id="sidImg" src="Sid.JPG">
                         </div>
                     </div>
                 </div>  
-                <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
+                <div class=" col-md-3 col-md-offset-1" style="margin-left: 70px">
+                    <div class="flip-container" id="days_time_flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" id="days_time_flip">
+                                <h1 style="text-align:center; color:white; padding-top:30px">Days</h1>
+                            </div>
+                            <div class="back" style="transform-origin:50% 50%;" id="days_time_flip">
+                                <h1 style="text-align:center; color:white; padding-top:30px">Monday – Friday</h1>
+                            </div>
+                        </div>
+                    </div> 
+                   <div class="flip-container" style="margin-top:35px;" id="days_time_flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" id="days_time_flip">
+                                <h1 style="text-align:center; color:white; padding-top:30px">Time</h1>
+                            </div>
+                            <div class="back" style="transform-origin:50% 50%;"id="days_time_flip">
+                                <h1 style="text-align:center; color:white; padding-top:15px; font-size: 25px">Section 1: 6:00 - 7:00 pm</h1>
+                                <h1 style="text-align:center; color:white; font-size: 25px">Section 2: 7:00 - 8:00 pm </h1>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="flip-container" style="margin-top:35px;" id="days_time_flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" id="days_time_flip">
+                                <h1 style="text-align:center; color:white; padding-top:30px">Pricing</h1>
+                            </div>
+                            <div class="back" style="transform-origin:50% 50%;"id="days_time_flip">
+                                <h1 style="text-align:center; color:white; margin-top:10px; font-size: 25px">Early Bird (Before July 28): $450</h1>
+                                <h1 style="text-align:center; color:white; font-size: 25px">Late Bird (Before July 28): $480</h1>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="flip-container col-md-3 col-md-offset-1" id="topics_flip" ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper">
-                        <div class="front">
-                <!-- front content -->
+                        <div class="front"id="topics_flip">
+                                <h1 style="text-align:center; color:white; padding-top:30px">Topics</h1>
                         </div>
-                        <div class="back">
-                            <img id="sidImg" src="Sid.JPG">
-                        </div>
-                    </div>
-                </div>  
-                <div class="flip-container col-md-4" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                <!-- front content -->
-                        </div>
-                        <div class="back">
-                            <img id="sidImg" src="Sid.JPG">
+                        <div class="back"id="topics_flip" style="color:white;">
+                            <p data-toggle="collapse" data-target="#dataStructures" style="cursor:pointer; margin-left:15px; margin-top:20px;"><i> Basic Data Structures</p></i>
+                                <ul id="dataStructures" class="collapse in courseHighlight">
+                                    <p>Strings
+                                        <br>
+                                    Lists
+                                        <br>
+                                    Dictionaries
+                                        <br>
+                                    Nametuples
+                                    </p>
+                                </ul>
+                            <hr style="border-color:rgb(127,127,127)">
+                            <p data-toggle="collapse" data-target="#dataStructures2" style="cursor:pointer; margin-left:15px;"><i>Objected Oriented Programming</p></i>
+                                <ul id="dataStructures2" class="collapse out courseHighlight">
+                                    <p>Functions<br>
+                                    Classes<br>
+                                    Objects
+                                    </p>
+                                </ul>
+                            <hr style="border-color:rgb(127,127,127)">
+                            <p data-toggle="collapse" data-target="#dataStructures3" style="cursor:pointer; margin-left:15px;"><i>Inputs / Outputs</p></i>
+                            <ul id="dataStructures3" class="collapse out courseHighlight">
+                                <p>Text Processing<br>
+                                Flies<br>
+                                Drawing with tkinter</p>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>    <!--End Row-->
-
-
 
 
 
@@ -75,6 +144,37 @@
         <div class="footers">
             <h1 class="htmlh1" id="footersPython">{ </h1>
         </div>
+
+<div class="row footer">
+         <div class="col-md-3">
+             <h1 class="footer-title" style="color:black">Coder Central</h1>
+             <img class='icon' src="../icons/fb.png"/>
+             <img class='icon' src="../icons/rd.png"/>
+             <img class='icon' src="../icons/tt.png"/>
+             <img class='icon' src="../icons/tu.png"/>
+             <img class='icon' src="../icons/yt.png"/>
+             <p><span class="glyphicon glyphicon-copyright-mark"style="color:black"></span>2015 Coder Central. All Rights Reserved</p>
+         </div>
+        <div class="col-md-3">
+            <h3 style="color:black">Coder Central</h3>
+            <ul>
+                <li><a href="../about.html"style="color:black">About Us</a></li>
+                <li><a href="../courses.html"style="color:black">Register</a></li>
+                <li><a href="../courses.html"style="color:black">Courses</a></li>
+                <li><a href="../https:/codercentral.wordpress.com"style="color:black">Blog</a></li>
+
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h3 style="color:black">Code Camp</h3>
+            <ul>
+                <li><a style="color:black">Overview</a></li>
+                <li><a style="color:black">Curriculum</a></li>
+                <li><a style="color:black"></a></li>
+            </ul>
+        </div>
+    </div>
+
         <script type="text/javascript" src='../js/jquery-1.11.3.js'></script>
         <script type="text/javascript" src='../js/jquery-2.1.4.min.js'></script>
         <script type="text/javascript" src='../js/bootstrap.min.js'></script>
