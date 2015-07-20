@@ -86,27 +86,25 @@ function homeAnimation(){
         },1000);
 
         if(winWidth>757){
-            setTimeout(function(){
-                var aboutTile=$('#about-tile').height();
-                var halfAbout=aboutTile/2;
-                //var halfAbouter=winHeight*.4198;
-                var tile=$('.tile');
-                tile.css({
-                    'height':halfAbout+'px'
-                });
-                tile.on("mouseenter",'.flip-text',function(){
-                    $(this).animate({
-                        'font-size':'30px'
-                    },100);
-                    $(this).parent().addClass('shaded');
-                });
-                tile.on('mouseout','.flip-text',function(){
-                    $(this).animate({
-                        'font-size':'22px'
-                    },100);
-                    $(this).parent().removeClass('shaded');
-                });
-            },10);
+            var aboutTile=$('#about-tile').height();
+            //var halfAbout=aboutTile/2;
+            var halfAbouter=winHeight*.4198;
+            var tile=$('.tile');
+            tile.css({
+                'height':halfAbouter+'px'
+            });
+            tile.on("mouseenter",'.flip-text',function(){
+                $(this).animate({
+                    'font-size':'30px'
+                },100);
+                $(this).parent().addClass('shaded');
+            });
+            tile.on('mouseout','.flip-text',function(){
+                $(this).animate({
+                    'font-size':'22px'
+                },100);
+                $(this).parent().removeClass('shaded');
+            });
 
             aboutH=winHeight*.75;
             $('#aboutInfo').css({
@@ -116,6 +114,11 @@ function homeAnimation(){
             aboutH=winHeight*.25;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
+            });
+
+            aboutH=winHeight*.819;
+            $('home-banner').css({
+               'height':aboutH+'px'
             });
         }
     });
