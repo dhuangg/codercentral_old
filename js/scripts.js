@@ -84,15 +84,15 @@ function homeAnimation(){
                 $('#welcome').fadeIn();
             });
         },1000);
-
+        var aboutTile=$('#about-tile').height();
+        //var halfAbout=aboutTile/2;
+        var halfAbouter=winHeight*.4198;
+        var tile=$('.tile');
+        tile.css({
+            'height':halfAbouter+'px'
+        });
         if(winWidth>757){
-            var aboutTile=$('#about-tile').height();
-            //var halfAbout=aboutTile/2;
-            var halfAbouter=winHeight*.4198;
-            var tile=$('.tile');
-            tile.css({
-                'height':halfAbouter+'px'
-            });
+
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
                     'font-size':'30px'
