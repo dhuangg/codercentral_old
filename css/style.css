@@ -294,7 +294,6 @@ p{
 }
 
 a{
-    color: rgb(52,50,54);
     text-decoration: none;
     opacity:3 !important;
 }
@@ -388,8 +387,8 @@ a:hover{
 }
 
 .footer{
-    padding-left:15%;
-    padding-right: 15%;
+    padding: 8% 15% 15% 5%;
+    color:white;
 }
 
 .footer-title{
