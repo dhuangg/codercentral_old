@@ -299,7 +299,6 @@ a{
 }
 
 a:hover{
-    color:rgb(52,50,54);
     text-decoration: none;
 }
 
@@ -387,7 +386,7 @@ a:hover{
 }
 
 .footer{
-    padding: 8% 15% 15% 5%;
+    padding: 8% 15% 5% 13%;
     color:white;
 }
 
