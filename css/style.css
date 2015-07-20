@@ -14,7 +14,7 @@
 /* Large desktop */
 @media (min-width: 1200px) {
     #home{
-        padding-top:4.5%;
+        padding-top:3.9%;
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -78,7 +78,7 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
     #home{
-        padding-top:4.5%;
+        padding-top:3.9%;
     }
     .tile{
         padding-top:40% !important;
@@ -249,7 +249,7 @@
         text-align: left;
         font-size: 37px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0;
         padding-left: 65px;
     }
     .tile{
