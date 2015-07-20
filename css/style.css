@@ -465,9 +465,9 @@ padding-top:0px;
 
 
 #course-body{
-    background-color: #353239
+    margin-top: 50px;
+    background-color: #343236
 }
-
 #course-header{
     color: white;
     margin-top: 0px;
@@ -475,7 +475,7 @@ padding-top:0px;
     padding-left: 100px;
     padding-top: 60px;
     margin:-10px;
-    height: 500px;
+    height: 550px;
 }
 #course-title{
     font-family: archiveregular;
@@ -489,50 +489,69 @@ padding-top:0px;
     font-size: 20px;
 }
 
-#wrap{
-    
-}
-
 .circle{
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 22px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    border: 4px solid #FFF1D3;
     text-align: center;
     padding-top: 10px;
-    /*position: absolute;*/
-    z-index: -1; /*position:relative;*/
+    z-index: -1;
+    position: absolute;
 }
 
 #course-circle{
-    background-color: #66B58C;
-    position: absolute;
+    background-color: #3A91CB;
 }
-
 #python-course{
-    background-color: #66B58C;
-    position: absolute;
+    background-color: #2D62B6;
+    line-height: 162;
 }
-
 #webdesign-course{
-    background-color: #66B58C;
-    position: absolute;
+    background-color: #DE996A;
 }
-
 #java-course{
-    background-color: #66B58C;
-    position: absolute;
+    background-color: #653797;
 }
-
 #cpp-course{
-    background-color: #66B58C;
-    position: absolute;
+    background-color: #92C2C0;
+}
+#unity-course{
+    background-color: #C5C065;
+}
+#graphics-course{
+    background-color: #C05562;
 }
 
-#unity-course{
-    background-color: #66B58C;
-    position: absolute;
+
+
+/*
+#python-text{
+    position: relative;
+    top: 0%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(-47.8%);
+}
+#webdesign-text{
+
+}
+#java-text{
+
+}
+#cpp-text{
+
+}
+#unity-text{
+
+}
+#graphics-text{
+
+}
+#python-text{
+
+}
+*/
+
 
 @media (min-width: 885px) and (max-width: 992px){
     .emailBar{
