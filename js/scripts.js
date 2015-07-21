@@ -68,7 +68,6 @@ function htmlCourse(){
 
 }
 function homeAnimation(){
-    $(document).ready(function(){
         var winHeight=$(window).height();
         var winWidth= $(window).width();
         var aboutH;
@@ -81,6 +80,15 @@ function homeAnimation(){
                 $('#welcome').fadeIn();
             });
         },1000);
+        var testSlider=$('#testimonial-slider');
+        testSlider.fadeThrough({
+            interval: 5000,
+            fadeduration: 3000,
+            heightduration:100,
+            autostart: true,
+            autowidth: false,
+            childIdentifier: '.item'});
+
         var tile=$('.tile');
         var tileHeight=tile.width()*1.2;
         tile.css({
@@ -115,6 +123,6 @@ function homeAnimation(){
                'height':aboutH+'px'
             });
         }
-    });
+
 
 }
