@@ -289,7 +289,6 @@
 }
 
 body{
-    background: rgb(52,50,54);
     font-family:archiveregular, san-serif;
 }
 
@@ -326,11 +325,15 @@ a:hover{
 }
 
 .tile{
-    margin-top:2%;
+    margin:0 !important;
     padding:0;
     text-align:center;
     position: relative;
     color:white;
+}
+
+.row{
+    margin:0;
 }
 
 .home-mission{
@@ -390,6 +393,7 @@ a:hover{
 }
 
 .footer{
+    background-color:rgb(52,50,54);
     padding: 8% 15% 5% 13%;
     color:white;
 }

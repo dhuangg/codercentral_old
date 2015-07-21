@@ -82,7 +82,10 @@ function homeAnimation(){
             });
         },1000);
         var tile=$('.tile');
-
+        var tileHeight=tile.width()*1.2;
+        tile.css({
+            'height':tileHeight + 'px'
+        });
         if(winWidth>757){
             tile.on("mouseenter",'.flip-text',function(){
                 $(this).animate({
@@ -97,7 +100,7 @@ function homeAnimation(){
                 $(this).parent().removeClass('shaded');
             });
 
-            aboutH=winHeight*.75;
+            aboutH=winHeight*.65;
             $('#aboutInfo').css({
                 'top': aboutH +'px'
             });
