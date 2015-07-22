@@ -65,13 +65,35 @@
     }
 
     .contactHeading{
-        height:300px;
+        height: 300px;
         padding-top: 30px;
-        padding-left: 100px;
+        padding-left: 10%;
         font-size: 150px;
         text-align: left;
         color:black;
         background: rgb(210,181,146);
+    }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.75%;
+        padding-bottom: 4%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 150px;
+        padding-top: 4%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 18%;
+        padding-left: 5%;
+        font-size: 20px;
     }
 }
 
@@ -129,7 +151,29 @@
         color: white;
         margin-top: 0px;  
         padding-left: 65px;
+    }
 
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 100px;
+        padding-top: 5%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
     }
     .htmlh1_2{
         font-family: archiveregular;
@@ -142,7 +186,7 @@
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
     #home{
         padding-top:5%;
     }
@@ -201,8 +245,17 @@
         color: white;
         margin-top: 0px;  
         padding-left: 65px;
-
     }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
     .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
@@ -211,10 +264,24 @@
         margin-top: 0px;  
         padding-left: 65px;
     }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 50px;
+        padding-top: 9%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #home{
         padding-top:5%;
     }
@@ -279,14 +346,38 @@
         padding-left: 20px;
         font-size: 80px;
         text-align: left;
-        color:black;
+        color: black;
         background: rgb(210,181,146);
     }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 50px;
+        padding-top: 9%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
 }
 
 body{
     background: rgb(52,50,54);
-    font-family:archiveregular, san-serif;
+    font-family: archiveregular, sans-serif;
 }
 
 p{
@@ -462,27 +553,6 @@ a:hover{
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
-}
-
-#course-header{
-    color: white;
-    margin-top: 0px;
-    background-color: #23C3CD;
-    padding-left: 90px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-#course-title{
-    font-family: archiveregular;
-    font-size: 150px;
-    padding-top: 50px;
-    padding-right: 400px;
-    padding-bottom: 50px;
-}
-#course-statement{
-    padding-right: 400px;
-    padding-left: 10px;
-    font-size: 20px;
 }
 
 #circle-body{
