@@ -437,8 +437,8 @@ a:hover{
     color:white;
 }
 #body{
-background-color: white;
-padding-top:0px;
+    background-color: white;
+    padding-top:0px;
 }
 #python{
     color:#FFD03F;
@@ -468,6 +468,93 @@ padding-top:0px;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
+}
+
+#course-header{
+    color: white;
+    margin-top: 0px;
+    background-color: #23C3CD;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#course-title{
+    font-family: archiveregular;
+    font-size: 150px;
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+#course-statement{
+    padding-right: 400px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#circle-body{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background-color: #F8F8F8;
+    z-index: 0;
+}
+
+.circle{
+    color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 1;
+    position: absolute;
+}
+
+#course-circle{
+    background-color: #3B92CB;
+}
+#python-circle{
+    background-color: #2D63B7;
+}
+#web-circle{
+    background-color: #DD874F;
+}
+#java-circle{
+    background-color: #663A98;
+}
+#cpp-circle{
+    background-color: #92C2C0;
+}
+#unity-circle{
+    background-color: #ABC565;
+}
+#graphics-circle{
+    background-color: #C15562;
+}
+
+#courses-footer{
+    margin-bottom: 0px;
+    color:#FFD03F;
+    background-color: #23C3CD;
+    padding-right: 50px;
+}
+
+@media (min-width: 885px) and (max-width: 992px){
+    .emailBar{
+        font-size:50px;
+        text-align: center;
+    }
+
+    .icon{
+        height:50px;
+        width:auto;
+    }
+
+    .contactHeading{
+        height:300px;
+        padding-top: 60px;
+        padding-left: 50px;
+        font-size: 120px;
+    }
 
 }
 #footersJava{
@@ -489,8 +576,12 @@ padding-top:0px;
 }
 
 
-
-
+.contactHeading{
+    height:300px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 80px;
+}
 
 
 
