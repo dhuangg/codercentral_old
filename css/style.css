@@ -14,7 +14,7 @@
 /* Large desktop */
 @media (min-width: 1200px) {
     #home{
-        padding-top:4.5%;
+        padding-top:3.9%;
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,7 +47,8 @@
         padding-left: 65px;
     }
     .tile{
-        padding-top:40% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
 
     #aboutInfo{
@@ -65,13 +66,10 @@
     }
 
     .contactHeading{
-        height: 300px;
-        padding-top: 30px;
-        padding-left: 10%;
+        height:300px;
+        padding-top: 10%;
+        padding-left: 8%;
         font-size: 150px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
 
     #course-header{
@@ -100,10 +98,11 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
     #home{
-        padding-top:4.5%;
+        padding-top:3.9%;
     }
     .tile{
-        padding-top:40% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
     #aboutInfo{
         height:80px;
@@ -123,12 +122,9 @@
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 100px;
+        padding-top: 10%;
+        padding-left: 8%;
         font-size: 90px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -144,7 +140,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .htmlh1{
+    .htmlh1, .html1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -175,14 +171,6 @@
         font-size: 16px;
         text-align: justify;
     }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 125px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
-    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -194,7 +182,8 @@
         font-size:20px;
     }
     .tile{
-        padding-top:30% !important;
+        padding-top:55% !important;
+        padding-bottom:55% !important;
     }
     #contact-tile{
         font-size:20px;
@@ -206,6 +195,7 @@
 
     /* Contact us page */
     .emailBar{
+        padding-top:10%;
         font-size:50px;
         text-align: center;
     }
@@ -217,12 +207,9 @@
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 50px;
+        padding-top: 10%;
+        padding-left: 7%;
         font-size: 80px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -238,7 +225,7 @@
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    .htmlh1{
+    .htmlh1, .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 75px;
@@ -254,15 +241,6 @@
         padding-left: 5%;
         padding-top: 1.5%;
         padding-bottom: 3.5%;
-    }
-
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 75px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
     }
 
     #course-title{
@@ -288,6 +266,15 @@
     #welcome{
         font-size:15px;
     }
+
+    .htmlh1, .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;
+        padding-left: 65px;
+    }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
@@ -295,32 +282,16 @@
         padding-right: 100px;
     }
     .htmlDiv{
-        margin:0px;
+        margin:0;
         padding-left: 25px;
-        border:0px; 
+        border:0;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    .htmlh1{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 37px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
-
-    }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 37px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
-    }
     .tile{
-        padding-top:20% !important;
+        padding-top:30% !important;
+        padding-bottom:30% !important;
     }
     #contact-tile{
         font-size:20px;
@@ -341,13 +312,10 @@
     }
 
     .contactHeading{
-        height:250px;
-        padding-top: 30px;
-        padding-left: 20px;
-        font-size: 80px;
-        text-align: left;
-        color: black;
-        background: rgb(210,181,146);
+        height:300px;
+        padding-top: 10%;
+        padding-left: 8%;
+        font-size: 150px;
     }
 
     #course-header{
@@ -375,6 +343,27 @@
 
 }
 
+.contactHeading{
+    text-align: left;
+    background: rgb(210,181,146);
+    color:white;
+}
+
+.emailBar{
+    padding-top:5%;
+    padding-bottom:5%;
+    color: white;
+}
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; //change this to your desired size
+line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color:white;
+}
+
 body{
     background: rgb(52,50,54);
     font-family: archiveregular, sans-serif;
@@ -390,7 +379,6 @@ a{
 }
 
 a:hover{
-    color:rgb(52,50,54);
     text-decoration: none;
 }
 
@@ -406,6 +394,8 @@ a:hover{
     margin:5%;
 }
 
+
+
 #girlsTalking{
     float:left;
     width:40%;
@@ -414,11 +404,15 @@ a:hover{
 }
 
 .tile{
-    margin:0;
+    margin:0 !important;
     padding:0;
     text-align:center;
     position: relative;
     color:white;
+}
+
+.row{
+    margin:0;
 }
 
 .home-mission{
@@ -478,9 +472,9 @@ a:hover{
 }
 
 .footer{
-    padding: 8% 15% 15% 5%;
-    color: white;
-    background-color: white;
+    background-color:rgb(52,50,54);
+    padding: 8% 15% 5% 13%;
+    color:white;
 }
 
 .footer-title{
@@ -515,10 +509,13 @@ a:hover{
     font-size:50px;
 }
 
-
+.thumbnail{
+    width:250px;
+    height:auto;
+}
 
 #java{
-    background-color: #353070;
+    background-color: rgb(67,51, 128);
     color:white;
 }
 #body{
@@ -533,10 +530,15 @@ a:hover{
     background-color:#F66337;
     color:white;
 }
+.unityColor{
+    background-color: #FFFFFF;
+    color:white;
+}
 #creamColor{
   /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
-    padding-left: 45px;
+    padding-left: 0px;
+    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -545,14 +547,15 @@ a:hover{
 .footers{
     text-align: right;
     margin-top: -10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #footersPython{
     text-align: right;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
+    margin-top: 50px;
 }
 
 #circle-body{
@@ -602,34 +605,14 @@ a:hover{
     padding-right: 50px;
 }
 
-
-/*
-#python-text{
-    position: relative;
-    top: 0%;
-    transform: translateY(50%);
-    -webkit-transform: translateY(-47.8%);
+.navbar{
+    font-family:archiveregular;
+    font-size:18px;
 }
-#webdesign-text{
 
+hr{
+    background-color:black;
 }
-#java-text{
-
-}
-#cpp-text{
-
-}
-#unity-text{
-
-}
-#graphics-text{
-
-}
-#python-text{
-
-}
-*/
-
 
 @media (min-width: 885px) and (max-width: 992px){
     .emailBar{
@@ -644,10 +627,11 @@ a:hover{
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 50px;
+        padding-top: 10%;
+        padding-left: 5%;
         font-size: 120px;
     }
+
 
 }
 #footersJava{
@@ -667,12 +651,165 @@ a:hover{
 #htmlDiv{
     margin-top: -10px;
 }
+#sidImg{
+    width:275px;
+    height:auto;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#days_time_flip{
+    width:320px;
+    height:150px;
+    margin-left:-25px;
+}
+#pricing_flip{
+    width:320px;
+    height:150px;
+    margin-left:10px;
+}
+#topics_flip{
+    width:320px;
+    height:520px;
+}
+#pics_flip{
+    width:320px;
+    height:auto;
+}
+#picture_flip{
+    width:320px;
+    height:240px;
+}
+#picture2_flip {
+    width:320px;
+    height:213px;
+
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+
+  100% {
+    opacity: 1; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0); }
+
+  100% {
+    opacity: 1; } }
+#main .anim_element {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both; background-color: white;
+padding-top:0px;}
+.body{
+    background-color: white;
+padding-top:0px;
+}
+#main .anim_element--fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn; 
+      background-color: white;
+padding-top:0px;}
+
+#main .anim_element--fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+      background-color: white;
+padding-top:0px;}
+
+#main.is-exiting .anim_element {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-direction: alternate-reverse;
+          animation-direction: alternate-reverse; 
+     background-color: white;
+padding-top:0px; }
+
+.flip-container {
+    perspective: 1000;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    width: 320px;
+    height: 520px; 
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: #3773A7;
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+        background-color: #3773A7;
+        transform-origin:45.5% 50%;
+
+}
+.courseHighlight{
+    background-color:rgba(156, 217, 234, 255);
+    border-radius: 10px 0px 0px 10px;
+    color:black;
+    margin-left:20px;
+  /*  margin-right: 30px;  */
+}
 
 
 .contactHeading{
     height:300px;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 10%;
+    padding-left: 5%;
     font-size: 80px;
 }
 
