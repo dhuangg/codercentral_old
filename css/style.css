@@ -67,12 +67,9 @@
 
     .contactHeading{
         height:300px;
-        padding-top: 30px;
-        padding-left: 100px;
+        padding-top: 10%;
+        padding-left: 8%;
         font-size: 150px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
 }
 
@@ -103,12 +100,9 @@
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 100px;
+        padding-top: 10%;
+        padding-left: 8%;
         font-size: 90px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -157,7 +151,7 @@
 
     /* Contact us page */
     .emailBar{
-        padding-top:5%;
+        padding-top:10%;
         font-size:50px;
         text-align: center;
     }
@@ -169,12 +163,9 @@
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 50px;
+        padding-top: 10%;
+        padding-left: 7%;
         font-size: 80px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
     }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -256,13 +247,21 @@
 
     .contactHeading{
         height:250px;
-        padding-top: 30px;
-        padding-left: 20px;
+        padding-top: 10%;
+        padding-left: 7%;
         font-size: 80px;
-        text-align: left;
-        color:black;
-        background: rgb(210,181,146);
+
     }
+}
+
+.contactHeading{
+    text-align: left;
+    background: rgb(210,181,146);
+    color:white;
+}
+
+.emailBar{
+    padding-top:5%;
 }
 
 body{
@@ -541,8 +540,8 @@ hr{
 
     .contactHeading{
         height:300px;
-        padding-top: 60px;
-        padding-left: 50px;
+        padding-top: 10%;
+        padding-left: 5%;
         font-size: 120px;
     }
 
@@ -568,8 +567,8 @@ hr{
 
 .contactHeading{
     height:300px;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 10%;
+    padding-left: 5%;
     font-size: 80px;
 }
 
