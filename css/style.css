@@ -388,7 +388,8 @@ a:hover{
 
 .footer{
     padding: 8% 15% 15% 5%;
-    color:white;
+    color: white;
+    background-color: #23C3CD;
 }
 
 .footer-title{
@@ -430,8 +431,8 @@ a:hover{
     color:white;
 }
 #body{
-background-color: white;
-padding-top:0px;
+    background-color: white;
+    padding-top:0px;
 }
 #python{
     color:#FFD03F;
@@ -463,23 +464,18 @@ padding-top:0px;
     padding-right: 50px;
 }
 
-
-#course-body{
-    margin-top: 50px;
-    background-color: #343236
-}
 #course-header{
     color: white;
     margin-top: 0px;
     background-color: #23C3CD;
-    padding-left: 100px;
-    padding-top: 60px;
-    margin:-10px;
-    height: 550px;
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 #course-title{
     font-family: archiveregular;
     font-size: 150px;
+    padding-top: 50px;
     padding-right: 400px;
     padding-bottom: 50px;
 }
@@ -489,38 +485,48 @@ padding-top:0px;
     font-size: 20px;
 }
 
+#circle-body{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    background-color: #343236;
+    z-index: 0;
+}
+
 .circle{
     color: white;
     font-size: 22px;
     border-radius: 50%;
-    border: 4px solid #FFF1D3;
     text-align: center;
     padding-top: 10px;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
 }
 
 #course-circle{
     background-color: #3A91CB;
 }
-#python-course{
+#python-circle{
     background-color: #2D62B6;
-    line-height: 162;
 }
-#webdesign-course{
+#web-circle{
     background-color: #DE996A;
 }
-#java-course{
+#java-circle{
     background-color: #653797;
 }
-#cpp-course{
+#cpp-circle{
     background-color: #92C2C0;
 }
-#unity-course{
+#unity-circle{
     background-color: #C5C065;
 }
-#graphics-course{
+#graphics-circle{
     background-color: #C05562;
+}
+span{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
