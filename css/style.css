@@ -524,6 +524,10 @@ a:hover{
     font-size:18px;
 }
 
+hr{
+    background-color:black;
+}
+
 @media (min-width: 885px) and (max-width: 992px){
     .emailBar{
         font-size:50px;
