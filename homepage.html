@@ -26,18 +26,18 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">About Us<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Register</a></li>
+                            <li><a href="about.html">About Us<span class="sr-only">(current)</span></a></li>
+                            <li><a href="https://danielhuang.typeform.com/to/AdJToE">Register</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
+                                <a href="courses.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="Courses/java.html">Java</a></li>
                                     <li><a href="Courses/python.html">Python</a></li>
                                     <li><a href="Courses/webdesign.html">Web Design</a></li>
+                                    <li><a href="Courses/unity.html">Unity</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">One more separated link</a></li>
+                                    <li><a href="#">Graphics Design</a></li>
+                                    <li><a href="#">Portfolio Review</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contact Us</a></li>
@@ -50,13 +50,16 @@
             <div id="aboutInfo"><h3 id="welcome" style="display:none">Welcome to Coder Central.</h3>
             </div>
             <div class="home-banner">
+            <div class="home-banner row">
                 <img id='about-tile' src="images/dhuang.jpeg" class="col-md-8 col-xs-12" style="padding:0"/>
-                <div class="col-md-2 col-xs-6" >
-                    <a href="homepage.html"> <div  id="register-tile" class="tile" style="margin-top:0 !important">
+                <div class="col-md-2 col-xs-6"style="padding:0" >
+                    <a href="homepage.html"><div  id="register-tile" class="tile" style="margin-top:0 !important">
                         <h3 class="flip-text" style="margin:0">Register</h3>
                     </div></a>
                     <div id="courses-tile" class="tile "><h3 class="flip-text" style="margin:0">Courses</h3></div>
                 </div>
+                    <a href="courses.html"><div id="courses-tile" class="tile "><h3 class="flip-text" style="margin:0">Courses</h3></div>
+                </div></a>
                 <div class="col-md-2 col-xs-6" style="padding:0; margin:0;" >
                     <a href="https://codecamp15.wordpress.com" target="_blank"><div id="blog-tile" class="tile" style="margin-top:0 !important">
                         <h3 class="flip-text" style="margin:0">
@@ -65,17 +68,42 @@
                         Contact Us</h3></div></a>
                 </div>
             </div>
-            <div class="row abt " style="background-color:white">
+            <hr class='container'>
+                <div class="row">
+                    <div id="testimonial-slider" style="padding-top:1%; padding-bottom:10%;" class="col-md-offset-3 col-md-6">
+                        <div class="item">
+                            <h3><i>"You have provided an environment that truly makes learning Coding engaging and fun."</i></h3>
+                        </div>
+                        <div class="item">
+                            <h3><i>"We really appreciate how Daniel always provides encouragement as well as getting the
+                                students to be comfortable in using discussion to share information in a classroom setting."</i></h3>
+                        </div>
+                        <div class="item">
+                            <h3><i> "We felt that the format of your class helped propel the students to push much farther
+                                than they normally would."</i></h3>
+                        </div>
+                        <div class="item">
+                            <h3><i>"Connor has his discussion sections lead by Sidd, he has always been helpful and very patient."
+                            </i></h3>
+                        </div>
+                        <div class="item">
+                            <h3><i>"My son Connor has been learning coding through Code Camp; it has been a very positive
+                                learning experience so far." </i></h3>
+                        </div>
+
+                    </div>
+                </div>
+            <div class="row abt" style="background-color:lightgray">
                 <div class="abt container">
-                    <div class=" col-md-3 col-xs-1 col-md-offset-1 home-abt">
+                    <div class=" col-md-3 col-xs-6 col-md-offset-1 home-abt">
                         <div class="glyphicon glyphicon-heart"></div>
                         <h4>Personalized relationships</h4>
                     </div>
-                    <div class=" col-xs-2 col-md-3 col-md-offset-1 home-abt">
+                    <div class=" col-xs-6 col-md-3 col-md-offset-1 home-abt">
                         <div class="glyphicon glyphicon-map-marker"></div>
                         <h4>Pleasanton, <br> California </h4>
                     </div>
-                    <div class=" col-md-3 col-xs-2 col-md-offset-1 home-abt">
+                    <div class=" col-md-3 col-xs-12 col-md-offset-1 home-abt">
                         <div class="glyphicon glyphicon-ok"></div>
                         <h4> practical, challenging,<br> and engaging</h4>
                     </div>
@@ -114,7 +142,6 @@
                     </div>
                 </div>
             </div>
-
         <div class="row footer">
              <div class="col-md-4">
                  <h1 class="footer-title">Coder Central</h1>
@@ -132,7 +159,6 @@
                     <li><a href="courses.html">Register</a></li>
                     <li><a href="courses.html">Courses</a></li>
                     <li><a href="https://codercentral.wordpress.com">Blog</a></li>
-
                 </ul>
             </div>
             <div class="col-md-2">
@@ -153,10 +179,12 @@
             </div>
         </div>
     </div>
+    </div>
+
     <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
     <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
-    <script src="js/typed.js"></script>
     <script type="text/javascript" src='js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="js/atbo-fadethrough-1.0.js"></script>
     <script type="text/javascript" src='js/scripts.js'></script>
 </body>
 </html>
