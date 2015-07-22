@@ -389,7 +389,7 @@ a:hover{
 .footer{
     padding: 8% 15% 15% 5%;
     color: white;
-    background-color: #23C3CD;
+    background-color: white;
 }
 
 .footer-title{
@@ -489,7 +489,7 @@ a:hover{
     padding-top: 50px;
     padding-bottom: 0px;
     margin-top: 0px;
-    background-color: #343236;
+    background-color: #F8F8F8;
     z-index: 0;
 }
 
@@ -504,31 +504,33 @@ a:hover{
 }
 
 #course-circle{
-    background-color: #3A91CB;
+    background-color: #3B92CB;
 }
 #python-circle{
-    background-color: #2D62B6;
+    background-color: #2D63B7;
 }
 #web-circle{
-    background-color: #DE996A;
+    background-color: #DD874F;
 }
 #java-circle{
-    background-color: #653797;
+    background-color: #663A98;
 }
 #cpp-circle{
     background-color: #92C2C0;
 }
 #unity-circle{
-    background-color: #C5C065;
+    background-color: #ABC565;
 }
 #graphics-circle{
-    background-color: #C05562;
-}
-span{
-    display: inline-block;
-    vertical-align: middle;
+    background-color: #C15562;
 }
 
+#courses-footer{
+    margin-bottom: 0px;
+    color:#FFD03F;
+    background-color: #23C3CD;
+    padding-right: 50px;
+}
 
 
 /*
