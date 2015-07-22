@@ -410,7 +410,7 @@ a:hover{
 }
 
 .thumbnail{
-    width:240px;
+    width:250px;
     height:auto;
 }
 
@@ -517,6 +517,11 @@ a:hover{
     color:#FFD03F;
     background-color: #23C3CD;
     padding-right: 50px;
+}
+
+.navbar{
+    font-family:archiveregular;
+    font-size:18px;
 }
 
 @media (min-width: 885px) and (max-width: 992px){
