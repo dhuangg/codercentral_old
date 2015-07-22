@@ -457,11 +457,11 @@ a:hover{
 .footers{
     text-align: right;
     margin-top: -10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #footersPython{
     text-align: right;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
@@ -470,7 +470,7 @@ a:hover{
 
 #course-header{
     color: white;
-    margin-top: 0px;
+    margin-top: 0;
     background-color: #23C3CD;
     padding-left: 90px;
     padding-top: 40px;
