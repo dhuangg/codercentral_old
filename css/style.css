@@ -124,7 +124,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .htmlh1{
+    .htmlh1, .html1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 125px;
@@ -132,14 +132,6 @@
         margin-top: 0px;  
         padding-left: 65px;
 
-    }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 125px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
     }
 }
 
@@ -165,6 +157,7 @@
 
     /* Contact us page */
     .emailBar{
+        padding-top:5%;
         font-size:50px;
         text-align: center;
     }
@@ -197,7 +190,7 @@
         padding-top: 50px;
         padding-bottom: 25px;
     }
-    .htmlh1{
+    .htmlh1, .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
         font-size: 75px;
@@ -205,14 +198,6 @@
         margin-top: 0px;  
         padding-left: 65px;
 
-    }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 75px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
     }
 }
 
@@ -224,6 +209,15 @@
     #welcome{
         font-size:15px;
     }
+
+    .htmlh1, .htmlh1_2{
+        font-family: archiveregular;
+        text-align: left;
+        font-size: 37px;
+        color: white;
+        margin-top: 0px;
+        padding-left: 65px;
+    }
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
@@ -231,29 +225,12 @@
         padding-right: 100px;
     }
     .htmlDiv{
-        margin:0px;
+        margin:0;
         padding-left: 25px;
-        border:0px; 
+        border:0;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 25px;
-    }
-    .htmlh1{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 37px;
-        color: white;
-        margin-top: 0px;  
-        padding-left: 65px;
-
-    }
-    .htmlh1_2{
-        font-family: archiveregular;
-        text-align: left;
-        font-size: 37px;
-        color: white;
-        margin-top: 0;
-        padding-left: 65px;
     }
     .tile{
         padding-top:30% !important;
@@ -316,6 +293,8 @@ a:hover{
     text-align:center;
     margin:5%;
 }
+
+
 
 #girlsTalking{
     float:left;
@@ -430,7 +409,10 @@ a:hover{
     font-size:50px;
 }
 
-
+.thumbnail{
+    width:240px;
+    height:auto;
+}
 
 #java{
     background-color: #353070;
@@ -482,12 +464,11 @@ a:hover{
     font-family: archiveregular;
     font-size: 150px;
     padding-top: 50px;
-    padding-right: 400px;
-    padding-bottom: 50px;
+    padding-right: 10%;
 }
 #course-statement{
-    padding-right: 400px;
-    padding-left: 10px;
+    padding-right: 20%;
+    padding-left: 5%;
     font-size: 20px;
 }
 

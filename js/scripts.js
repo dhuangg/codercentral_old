@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
     var winWidth= $(window).width();
     homeAnimation();
     introduction();
-
+    aboutPage();
 });
 
 function introduction(){
@@ -59,8 +59,6 @@ function introduction(){
     },3500);
 
 }
-
-
 function htmlCourse(){
     var winHeight= $(window).height();
     var winWidth = $(window).width();
@@ -123,6 +121,16 @@ function homeAnimation(){
                'height':aboutH+'px'
             });
         }
-
-
+}
+function aboutPage(){
+    var winHeight= $(window).height();
+    var abtTileH=winHeight*.27;
+    var abtTileH2=winHeight*.56;
+    var abtTile=$('.abt-tiles');
+    abtTile.css({
+        'height': abtTileH+'px'
+    });
+    $('.abt-tiles-tall').css({
+        'height':abtTileH2+'px'
+    });
 }
