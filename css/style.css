@@ -93,6 +93,36 @@
         padding-left: 5%;
         font-size: 20px;
     }
+
+    #course-circle{
+        font-size: 30px;
+    }
+    #python-circle{
+        font-size: 30px;
+    }
+    #web-circle{
+        font-size: 30px;
+    }
+    #java-circle{
+        font-size: 30px;
+    }
+    #cpp-circle{
+        font-size: 32px;
+    }
+    #unity-circle{
+        font-size: 25px;
+    }
+    #graphics-circle{
+        font-size: 24px;
+    }
+    span {
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 38%;
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -171,6 +201,37 @@
         font-size: 16px;
         text-align: justify;
     }
+
+    #course-circle{
+        font-size: 30px;
+    }
+    #python-circle{
+        font-size: 22px;
+    }
+    #web-circle{
+        font-size: 20px;
+    }
+    #java-circle{
+        font-size: 24px;
+    }
+    #cpp-circle{
+        font-size: 26px;
+    }
+    #unity-circle{
+        font-size: 19px;
+    }
+    #graphics-circle{
+        font-size: 18px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 34%;
+    }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -256,6 +317,36 @@
         font-size: 16px;
         text-align: justify;
     }
+
+    #course-circle{
+        font-size: 20px;
+    }
+    #python-circle{
+        font-size: 15px;
+    }
+    #web-circle{
+        font-size: 14px;
+    }
+    #java-circle{
+        font-size: 18px;
+    }
+    #cpp-circle{
+        font-size: 20px;
+    }
+    #unity-circle{
+        font-size: 12px;
+    }
+    #graphics-circle{
+        font-size: 12px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 30%;
+    }
 }
 
 /* Landscape phones and down */
@@ -339,6 +430,37 @@
         padding-left: 5%;
         font-size: 16px;
         text-align: justify;
+    }
+
+    #course-circle{
+        font-size: 19px;
+        display: block;
+    }
+    #python-circle{
+        font-size: 15px;
+    }
+    #web-circle{
+        font-size: 12px;
+    }
+    #java-circle{
+        font-size: 15px;
+    }
+    #cpp-circle{
+        font-size: 19px;
+    }
+    #unity-circle{
+        font-size: 12px;
+    }
+    #graphics-circle{
+        font-size: 11px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 30%;
     }
 
 }
@@ -568,7 +690,6 @@ a:hover{
 
 .circle{
     color: white;
-    font-size: 22px;
     border-radius: 50%;
     text-align: center;
     padding-top: 10px;
@@ -578,24 +699,31 @@ a:hover{
 
 #course-circle{
     background-color: #3B92CB;
+    font-family: archiveregular;
 }
 #python-circle{
     background-color: #2D63B7;
+    font-family: archiveregular;
 }
 #web-circle{
     background-color: #DD874F;
+    font-family: archiveregular;
 }
 #java-circle{
     background-color: #663A98;
+    font-family: archiveregular;
 }
 #cpp-circle{
     background-color: #92C2C0;
+    font-family: archiveregular;
 }
 #unity-circle{
     background-color: #ABC565;
+    font-family: archiveregular;
 }
 #graphics-circle{
     background-color: #C15562;
+    font-family: archiveregular;
 }
 
 #courses-footer{
