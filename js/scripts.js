@@ -87,7 +87,7 @@ function homeAnimation(){
             .fadeIn(1000)
             .end()
             .appendTo('#slideshow');
-    },  3000);
+    },  6000);
         var tile=$('.tile');
         var tileHeight=tile.width()*1.2;
         tile.css({
