@@ -365,7 +365,7 @@ line-height: normal;
 }
 
 body{
-    background: rgb(52,50,54);
+    background: white;
     font-family: archiveregular, sans-serif;
 }
 
@@ -730,7 +730,7 @@ hr{
 padding-top:0px;}
 .body{
     background-color: white;
-padding-top:0px;
+    padding-top:0px;
 }
 #main .anim_element--fadeIn {
   -webkit-animation-name: fadeIn;
