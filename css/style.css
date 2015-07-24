@@ -1018,7 +1018,7 @@ padding-top:0px; }
     transition: 0.6s;
     transform-style: preserve-3d;
     -webkit-transition:0.6s;
-    -transform-style: preserve-3d;
+    webkit-transform-style: preserve-3d;
     position: relative;
 }
 
@@ -1036,15 +1036,17 @@ padding-top:0px; }
     z-index: 2;
     /* for firefox 31 */
     transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
     background-color: #3773A7;
 }
 
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-        background-color: #3773A7;
-        transform-origin:45.5% 50%;
-
+    -webkit-transform: rotateY(180deg);
+    background-color: #3773A7;
+    transform-origin:45.5% 50%;
+    -webkit-transform-origin:45.5% 50%;
 }
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
