@@ -1045,7 +1045,7 @@ padding-top:0px; }
     transform: rotateY(180deg);
     background-color: #3773A7;
     transform-origin:45.5% 50%;
-    -webkit-transform-origin:45.5% 50%;
+ /*   -webkit-transform-origin:45.5% 50%;  */
 }
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
