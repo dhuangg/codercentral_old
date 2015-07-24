@@ -8,9 +8,9 @@ jQuery(document).ready(function(){
 //    htmlCourse();
 
     var winWidth= $(window).width();
-    //homeAnimation();
+    homeAnimation();
     introduction();
-    //aboutPage();
+    aboutPage();
 });
 
 function introduction(){
@@ -19,14 +19,14 @@ function introduction(){
     introText.typed({
         strings: ["} Coder.Central();"],
         // typing speed
-        typeSpeed: 500,
+        typeSpeed: 80,
         // time before typing starts
         startDelay: 400,
         loopCount: false,
         // show cursor
-        showCursor: true,
+        showCursor: false,
         callback:function(){
-            //$('.typed-cursor').fadeOut('fast');
+            $('.typed-cursor').fadeOut('fast');
         }
     });
 
@@ -41,22 +41,22 @@ function introduction(){
         outro.typed({
             strings: ["> Be Inspired."],
             // typing speed
-            typeSpeed: 500,
+            typeSpeed: 80,
             // time before typing starts
             startDelay: 300,
             loopCount: false,
             // show cursor
-            showCursor: true,
+            showCursor: false,
             callback: function() {
                 setTimeout(function(){
                     $('#intro').fadeOut();
                 },800);
                 setTimeout(function(){
-                   // window.location = "homepage.html";
+                    window.location = "homepage.html";
                 },1000);
             }
         });
-    },10500);
+    },3500);
 
 }
 function htmlCourse(){
