@@ -1026,7 +1026,7 @@ padding-top:0px; }
 .front, .back {
     backface-visibility: hidden;
     -webkit-backface-visibility:hidden;
-    position: absolute;
+   /* position: absolute; */
     top: 0;
     left: 0;
 }
@@ -1036,13 +1036,14 @@ padding-top:0px; }
    /* z-index: 2; */
     /* for firefox 31 */
     transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);   
     background-color: #3773A7;
 }
 
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
     background-color: #3773A7;
     transform-origin:45.5% 50%;
  /*   -webkit-transform-origin:45.5% 50%;  */
