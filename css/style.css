@@ -75,6 +75,58 @@
         padding-left: 8%;
         font-size: 150px;
     }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.75%;
+        padding-bottom: 4%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 150px;
+        padding-top: 4%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 18%;
+        padding-left: 5%;
+        font-size: 20px;
+    }
+
+    #course-circle{
+        font-size: 30px;
+    }
+    #python-circle{
+        font-size: 30px;
+    }
+    #web-circle{
+        font-size: 30px;
+    }
+    #java-circle{
+        font-size: 30px;
+    }
+    #cpp-circle{
+        font-size: 32px;
+    }
+    #unity-circle{
+        font-size: 25px;
+    }
+    #graphics-circle{
+        font-size: 24px;
+    }
+    span {
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 38%;
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -132,12 +184,65 @@
         color: white;
         margin-top: 0px;  
         padding-left: 65px;
-
     }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 100px;
+        padding-top: 5%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #course-circle{
+        font-size: 30px;
+    }
+    #python-circle{
+        font-size: 22px;
+    }
+    #web-circle{
+        font-size: 20px;
+    }
+    #java-circle{
+        font-size: 24px;
+    }
+    #cpp-circle{
+        font-size: 26px;
+    }
+    #unity-circle{
+        font-size: 19px;
+    }
+    #graphics-circle{
+        font-size: 18px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 34%;
+    }
+
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
     #home{
         padding-top:5%;
     }
@@ -199,12 +304,64 @@
         color: white;
         margin-top: 0px;  
         padding-left: 65px;
+    }
 
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 50px;
+        padding-top: 9%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #course-circle{
+        font-size: 20px;
+    }
+    #python-circle{
+        font-size: 15px;
+    }
+    #web-circle{
+        font-size: 14px;
+    }
+    #java-circle{
+        font-size: 18px;
+    }
+    #cpp-circle{
+        font-size: 20px;
+    }
+    #unity-circle{
+        font-size: 12px;
+    }
+    #graphics-circle{
+        font-size: 12px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 30%;
     }
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #home{
         padding-top:5%;
     }
@@ -257,12 +414,66 @@
     }
 
     .contactHeading{
-        height:250px;
+        height:300px;
         padding-top: 10%;
-        padding-left: 7%;
-        font-size: 80px;
-
+        padding-left: 8%;
+        font-size: 150px;
     }
+
+    #course-header{
+        color: white;
+        margin-top: 0;
+        background-color: #23C3CD;
+        padding-left: 5%;
+        padding-top: 1.5%;
+        padding-bottom: 3.5%;
+    }
+
+    #course-title{
+        font-family: archiveregular;
+        font-size: 50px;
+        padding-top: 9%;
+        padding-right: 10%;
+    }
+
+    #course-statement{
+        padding-right: 12%;
+        padding-left: 5%;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    #course-circle{
+        font-size: 19px;
+        display: block;
+    }
+    #python-circle{
+        font-size: 15px;
+    }
+    #web-circle{
+        font-size: 12px;
+    }
+    #java-circle{
+        font-size: 15px;
+    }
+    #cpp-circle{
+        font-size: 19px;
+    }
+    #unity-circle{
+        font-size: 12px;
+    }
+    #graphics-circle{
+        font-size: 11px;
+    }
+    span{
+        display: block;
+        vertical-align: middle;
+        line-height: normal;      
+    }
+    #line1{
+        padding-top: 30%;
+    }
+
 }
 
 .contactHeading{
@@ -287,7 +498,8 @@ line-height: normal;
 }
 
 body{
-    font-family:archiveregular, san-serif;
+    background: white;
+    font-family: archiveregular, sans-serif;
 }
 
 p{
@@ -315,9 +527,116 @@ a:hover{
     margin:5%;
 }
 
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    padding: 5%;
+    height:40%;
+}
 
+#slideshow > div {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    text-align:center;
+    margin-left:25%;
+}
+.timeline {
+    position: relative;
+    padding: 21px 0px 10px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
 
-#girlsTalking{
+.timeline .line {
+    position: absolute;
+    width: 4px;
+    display: block;
+    background: currentColor;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 30px;
+}
+
+.timeline .separator {
+    border-top: 1px solid currentColor;
+    padding: 5px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: .9em;
+    margin-left: 30px;
+}
+
+.timeline .line::before { top: -4px; }
+.timeline .line::after { bottom: -4px; }
+.timeline .line::before,
+.timeline .line::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 21px 70px;
+    clear: both;
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * { font-size: 20px; vertical-align: middle; line-height: 40px; }
+.timeline .panel .panel-heading.icon {
+    position: absolute;
+    left: -59px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
+}
+
+.timeline .panel-outline .panel-heading:not(.icon),
+.timeline .panel-outline .panel-footer {
+    display: none;
+}
+
+.panel-body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.girlsTalking{
     float:left;
     width:40%;
     margin-right:5%;
@@ -468,35 +787,15 @@ a:hover{
 .footers{
     text-align: right;
     margin-top: -10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #footersPython{
     text-align: right;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color:#FFD03F;
     background-color: #3773A7;
     padding-right: 50px;
     margin-top: 50px;
-}
-
-#course-header{
-    color: white;
-    margin-top: 0px;
-    background-color: #23C3CD;
-    padding-left: 90px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-#course-title{
-    font-family: archiveregular;
-    font-size: 150px;
-    padding-top: 50px;
-    padding-right: 10%;
-}
-#course-statement{
-    padding-right: 20%;
-    padding-left: 5%;
-    font-size: 20px;
 }
 
 #circle-body{
@@ -509,7 +808,6 @@ a:hover{
 
 .circle{
     color: white;
-    font-size: 22px;
     border-radius: 50%;
     text-align: center;
     padding-top: 10px;
@@ -519,24 +817,31 @@ a:hover{
 
 #course-circle{
     background-color: #3B92CB;
+    font-family: archiveregular;
 }
 #python-circle{
     background-color: #2D63B7;
+    font-family: archiveregular;
 }
 #web-circle{
     background-color: #DD874F;
+    font-family: archiveregular;
 }
 #java-circle{
     background-color: #663A98;
+    font-family: archiveregular;
 }
 #cpp-circle{
     background-color: #92C2C0;
+    font-family: archiveregular;
 }
 #unity-circle{
     background-color: #ABC565;
+    font-family: archiveregular;
 }
 #graphics-circle{
     background-color: #C15562;
+    font-family: archiveregular;
 }
 
 #courses-footer{
@@ -671,7 +976,7 @@ hr{
 padding-top:0px;}
 .body{
     background-color: white;
-padding-top:0px;
+    padding-top:0px;
 }
 #main .anim_element--fadeIn {
   -webkit-animation-name: fadeIn;

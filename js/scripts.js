@@ -78,19 +78,21 @@ function homeAnimation(){
                 $('#welcome').fadeIn();
             });
         },1000);
-        var testSlider=$('#testimonial-slider');
-        testSlider.fadeThrough({
-            interval: 5000,
-            fadeduration: 3000,
-            heightduration:100,
-            autostart: true,
-            autowidth: false,
-            childIdentifier: '.item'});
+    $("#slideshow > div:gt(0)").hide();
 
+    setInterval(function() {
+        $('#slideshow > div:first')
+            .fadeOut(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+    },  6000);
         var tile=$('.tile');
         var tileHeight=tile.width()*1.2;
         tile.css({
-            'height':tileHeight + 'px'
+            'height':tileHeight + 'px',
+            'width':'100%'
         });
         if(winWidth>757){
             tile.on("mouseenter",'.flip-text',function(){
