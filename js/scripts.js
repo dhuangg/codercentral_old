@@ -24,7 +24,7 @@ function introduction(){
         startDelay: 400,
         loopCount: false,
         // show cursor
-        showCursor: true,
+        showCursor: false,
         callback:function(){
             $('.typed-cursor').fadeOut('fast');
         }
@@ -46,7 +46,7 @@ function introduction(){
             startDelay: 300,
             loopCount: false,
             // show cursor
-            showCursor: true,
+            showCursor: false,
             callback: function() {
                 setTimeout(function(){
                     $('#intro').fadeOut();
