@@ -77,6 +77,4 @@ $(document).ready(function() {
 	circle_animation('cpp');
 	circle_animation('unity');
 	circle_animation('graphics');
-
 });
-
