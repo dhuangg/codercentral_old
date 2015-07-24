@@ -1033,7 +1033,7 @@ padding-top:0px; }
 
 /* front pane, placed above back */
 .front {
-    z-index: 2;
+   /* z-index: 2; */
     /* for firefox 31 */
     transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
@@ -1043,7 +1043,6 @@ padding-top:0px; }
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
     background-color: #3773A7;
     transform-origin:45.5% 50%;
     -webkit-transform-origin:45.5% 50%;
