@@ -934,12 +934,12 @@ hr{
 
 }
 _::-webkit-full-page-media, _:future, :root .timeflip2 { 
-     -webkit-transform-origin:50% 50% !important;
+     -webkit-transform-origin:35% 50% !important;
      /*Safari Specific centering */
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .timeflip2 {(;
-         -webkit-transform-origin:50% 50% !important;
+         -webkit-transform-origin:35% 50% !important;
          /*Safari Specific centering */
      );}
 }
