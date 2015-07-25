@@ -946,7 +946,7 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
 
 .flip-container {
     perspective:1000;
-        -webkit-perspective: 1000; 
+    -webkit-perspective: 1000; 
 }
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper {
