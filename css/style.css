@@ -933,7 +933,7 @@ hr{
     height:213px;
 
 }
-_::-webkit-full-page-media, _:future, :root .timeflip2 { 
+_:-webkit-full-page-media, _:future, :root .timeflip2 { 
      -webkit-transform-origin:53.4% 50% !important;
      background-color: yellow !important;
      /* Safari Specific centering */
