@@ -933,6 +933,7 @@ hr{
     height:213px;
 
 }
+/*TIMING TILE*/
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
      -webkit-transform-origin:53.4% 50% !important;
      /*Safari Specific centering */
@@ -943,6 +944,29 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
          /*Safari Specific centering */
      );}
 }
+/*PRICING TILE*/
+_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip {
+     -webkit-transform-origin:53.4% 50% !important;
+     /*Safari Specific centering */
+ }
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+    #pricing_flip {(;
+         -webkit-transform-origin:53.4% 50% !important;
+         /*Safari Specific centering */
+     );}
+}
+/*DATES TILE*/
+_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
+     -webkit-transform-origin:53.4% 50% !important;
+     /*Safari Specific centering */
+ }
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
+    .daysflip2 {(;
+         -webkit-transform-origin:53.4% 50% !important;
+         /*Safari Specific centering */
+     );}
+}
+
 
 .flip-container {
     perspective:1000;
