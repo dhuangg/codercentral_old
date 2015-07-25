@@ -957,12 +957,12 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip
 }
 /*DATES TILE*/
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
-     -webkit-transform-origin:65% 50% !important;
+     -webkit-transform-origin:57% 50% !important;
      /*Safari Specific centering */
  }
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .daysflip2 {(;
-         -webkit-transform-origin:53.4% 50% !important;
+         -webkit-transform-origin:57% 50% !important;
          /*Safari Specific centering */
      );}
 }
