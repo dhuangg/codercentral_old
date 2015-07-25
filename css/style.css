@@ -935,7 +935,7 @@ hr{
 }
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
      -webkit-transform-origin:53.4% 50% !important;
-     background-color: yellow !important; 
+     /*Safari Specific centering */
  }
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .timeflip2 {(;
