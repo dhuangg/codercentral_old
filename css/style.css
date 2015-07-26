@@ -951,7 +951,7 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip
  }
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     #pricing_flip {(;
-         -webkit-transform-origin:40%; 50% !important;
+         -webkit-transform-origin:42.2% 50% !important;
          /*Safari Specific centering */
      );}
 }
