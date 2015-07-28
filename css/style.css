@@ -99,7 +99,7 @@
     }
 
     #course-circle{
-        font-size: 30px;
+        font-size: 26px;
     }
     #python-circle{
         font-size: 30px;
@@ -125,7 +125,7 @@
         line-height: normal;      
     }
     #line1{
-        padding-top: 38%;
+        padding-top: 28%;
     }
 }
 
@@ -210,7 +210,7 @@
     }
 
     #course-circle{
-        font-size: 30px;
+        font-size: 20px;
     }
     #python-circle{
         font-size: 22px;
@@ -236,7 +236,7 @@
         line-height: normal;      
     }
     #line1{
-        padding-top: 34%;
+        padding-top: 27%;
     }
 
 }
@@ -330,7 +330,7 @@
     }
 
     #course-circle{
-        font-size: 20px;
+        font-size: 15px;
     }
     #python-circle{
         font-size: 15px;
@@ -356,7 +356,7 @@
         line-height: normal;      
     }
     #line1{
-        padding-top: 30%;
+        padding-top: 23%;
     }
 }
 
@@ -444,7 +444,7 @@
     }
 
     #course-circle{
-        font-size: 19px;
+        font-size: 11px;
         display: block;
     }
     #python-circle{
@@ -471,7 +471,7 @@
         line-height: normal;      
     }
     #line1{
-        padding-top: 30%;
+        padding-top: 18%;
     }
 
 }
