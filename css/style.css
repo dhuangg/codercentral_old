@@ -770,6 +770,23 @@ a:hover{
     background-color:#F66337;
     color:white;
 }
+.bootCamps{
+    text-align:left; 
+    color:white; 
+    margin-left:20px; 
+    font-size: 22px;
+}
+.bootTiming{
+    text-align:center; 
+    color:white; 
+    margin-top:-5px; 
+    font-size: 20px;
+}
+.timeText{
+    text-align:center; 
+    color:white; 
+    padding-top:30px;
+}
 .unityColor{
     background-color: #FFFFFF;
     color:white;
