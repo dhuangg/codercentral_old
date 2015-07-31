@@ -1154,7 +1154,6 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 }
 
 .content-top {
-    padding-left:10px;
     font-size: 20px;
 }
 
@@ -1167,15 +1166,4 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 
 .cont-about {
     padding-right: 40px;
-}
-
-.small {
-    float: left;
-    width: 20%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-}
-
-.visible {
-    display: block!important!important!important;
 }
