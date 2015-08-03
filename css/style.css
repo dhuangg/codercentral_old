@@ -19,8 +19,6 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
-        padding-right: 300px;
     }
     .htmlDiv{
         margin:0px;
@@ -497,6 +495,10 @@ line-height: normal;
     color:white;
 }
 
+.home-bg{
+    display:none;
+}
+
 body{
     background: white;
     font-family: archiveregular, sans-serif;
@@ -791,11 +793,9 @@ a:hover{
     background-color: #FFFFFF;
     color:white;
 }
-#creamColor{
+.creamColor{
   /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
-    padding-left: 0px;
-    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1166,4 +1166,16 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 
 .cont-about {
     padding-right: 40px;
+}
+
+.small {
+    float: left;
+    width: 20%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.txt-img {
+    float: right;
+    width: 50%;
 }
