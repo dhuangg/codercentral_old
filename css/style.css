@@ -765,8 +765,8 @@ a:hover{
     padding-top:0px;
 }
 .python{
-    color:#FFD03F;
-    background-color: #3773A7;
+    color:#FFD03F !important;
+    background-color: #3773A7 !important;
 }
 #html{
     background-color:#F66337;
@@ -1045,7 +1045,7 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
     border-radius: 10px 0px 0px 10px;
     color:black;
     margin-left:20px;
-    /*  margin-right: 30px;  */
+      margin-right: 30px;
 }
 
 .contactHeading{
