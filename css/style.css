@@ -19,6 +19,8 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
+        padding-left: 70px;
+        padding-right: 250px;
     }
     .htmlDiv{
         margin:0px;
