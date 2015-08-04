@@ -35,7 +35,7 @@
         font-size: 125px;
         color: white;
         margin-top: 0px;  
-        padding-left: 65px;
+     /*   padding-left: 65px; */
 
     }
     .javaPreview{
@@ -166,8 +166,15 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 250px;
+    }
+
+    .heading{
+        text-align:center;
+        margin-bottom: 5%;
+        margin-top:0px;
+        font-family: archiveregular;
     }
     .htmlDiv{
         margin:0px;
@@ -183,7 +190,7 @@
         font-size: 125px;
         color: white;
         margin-top: 0px;  
-        padding-left: 65px;
+    /*    padding-left: 65px;  */
     }
 
     #course-header{
@@ -762,9 +769,9 @@ a:hover{
     background-color: white;
     padding-top:0px;
 }
-#python{
-    color:#FFD03F;
-    background-color: #3773A7;
+.python{
+    color:#FFD03F !important;
+    background-color: #3773A7 !important;
 }
 #html{
     background-color:#F66337;
@@ -792,8 +799,7 @@ a:hover{
     color:white;
 }
 #creamColor{
-  /*  background-color: #EEE3C3; ---> cream color */
-    background-color: #E9EAED;  /*  ---> messenger chat color    */
+    background-color: #E9EAED !important;  /*  ---> messenger chat color    */
     padding-left: 0px;
     padding-right:0px;
 }
@@ -942,9 +948,9 @@ hr{
     width:320px;
     height:500px;
 }
-#pics_flip{
-    width:320px;
-    height:auto;
+.pics_flip{
+    width:320px !important;
+    height:auto !important;
 }
 #picture_flip{
     width:320px;
@@ -954,39 +960,6 @@ hr{
     width:320px;
     height:213px;
 
-}
-/*TIMING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
-     -webkit-transform-origin:53.4% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .timeflip2 {(;
-         -webkit-transform-origin:53.4 50% !important;
-         /*Safari Specific centering */
-     );}
-}
-/*PRICING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip {
-     -webkit-transform-origin:42.2% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    #pricing_flip {(;
-         -webkit-transform-origin:42.2% 50% !important;
-         /*Safari Specific centering */
-     );}
-}
-/*DATES TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
-     -webkit-transform-origin:57.6% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .daysflip2 {(;
-         -webkit-transform-origin:57.6% 50% !important;
-         /*Safari Specific centering */
-     );}
 }
 
 
