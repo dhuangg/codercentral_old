@@ -793,12 +793,21 @@ a:hover{
 }
 .unityColor{
     background-color:#ABC565 !important;
+<<<<<<< HEAD
     color:white;
 }
 .cppColor{
     background-color:#92C2C0 !important;
     color:white;
 }
+=======
+    color:white;
+}
+.cppColor{
+    background-color:#92C2C0 !important;
+    color:white;
+}
+>>>>>>> 63e34cb202cacec33be19e291c7707ca6805de6f
 .creamColor{
     /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
@@ -920,7 +929,6 @@ hr{
 #htmlDiv{
     margin-top: -10px;
 }
-
 
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
