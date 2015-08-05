@@ -368,7 +368,11 @@
     #welcome{
         font-size:15px;
     }
-
+    .javaPreview{
+        font-size:20px;
+        font-family:archiveregular;
+        margin-left:100px !important;
+    }
     .htmlh1, .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
@@ -758,9 +762,9 @@ a:hover{
     height:auto;
 }
 
-#java{
-    background-color: rgb(67,51, 128);
-    color:white;
+.java{
+    background-color: rgb(67,51, 128) !important;
+    color:white !important;
 }
 #body{
     background-color: white;
@@ -770,9 +774,9 @@ a:hover{
     color:#FFD03F !important;
     background-color: #3773A7 !important;
 }
-#html{
-    background-color:#F66337;
-    color:white;
+.html{
+    background-color:#F66337 !important;
+    color:white !important;
 }
 .bootCamps{
     text-align:left;
@@ -792,7 +796,11 @@ a:hover{
     padding-top:30px;
 }
 .unityColor{
-    background-color: #FFFFFF;
+    background-color:#ABC565 !important;
+    color:white;
+}
+.cppColor{
+    background-color:#92C2C0 !important;
     color:white;
 }
 .creamColor{
