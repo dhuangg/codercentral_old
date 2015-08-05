@@ -796,6 +796,8 @@ a:hover{
 .creamColor{
   /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
+    padding-left: 0px;
+    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -832,33 +834,31 @@ a:hover{
     position: absolute;
 }
 
+#course-circle, #python-circle, #web-circle, #java-circle,
+#cpp-circle, #unity-circle, #graphics-circle, #courses-footer{
+    font-family: archiveregular;
+}
+
 #course-circle{
     background-color: #3B92CB;
-    font-family: archiveregular;
 }
 #python-circle{
     background-color: #2D63B7;
-    font-family: archiveregular;
 }
 #web-circle{
     background-color: #DD874F;
-    font-family: archiveregular;
 }
 #java-circle{
     background-color: #663A98;
-    font-family: archiveregular;
 }
 #cpp-circle{
     background-color: #92C2C0;
-    font-family: archiveregular;
 }
 #unity-circle{
     background-color: #ABC565;
-    font-family: archiveregular;
 }
 #graphics-circle{
     background-color: #C15562;
-    font-family: archiveregular;
 }
 
 #courses-footer{
@@ -894,8 +894,6 @@ hr{
         padding-left: 5%;
         font-size: 120px;
     }
-
-
 }
 #footersJava{
     text-align: right;
@@ -921,6 +919,7 @@ hr{
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
     margin-left: 20px;
+
     margin-top: 25px;
 }
 #days_time_flip{
@@ -955,33 +954,9 @@ hr{
     height:213px;
 
 }
-/*TIMING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
-     -webkit-transform-origin:53.4% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .timeflip2 {(;
-         -webkit-transform-origin:53.4 50% !important;
-         /*Safari Specific centering */
-     );}
-}
+
 /*PRICING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip {
-     -webkit-transform-origin:42.2% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    #pricing_flip {(;
-         -webkit-transform-origin:42.2% 50% !important;
-         /*Safari Specific centering */
-     );}
-}
-/*DATES TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
-     -webkit-transform-origin:57.6% 50% !important;
-     /*Safari Specific centering */
- }
+
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .daysflip2 {(;
          -webkit-transform-origin:57.6% 50% !important;
@@ -989,11 +964,23 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
      );}
 }
 
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
 
-.flip-container {
-    perspective:1000;
-    -webkit-perspective: 1000; 
+.flip-container, .front, .back {
+    width: 320px;
+    height: 480px; 
+    transform-origin:50% 50%;
 }
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper {
         transform:rotateY(180deg);
@@ -1017,70 +1004,9 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 /* hide back of pane during swap */
 .front, .back {
     backface-visibility: hidden;
-    -webkit-backface-visibility:hidden;
-   position: absolute;
-    top: 0;
-    left: 0;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
 }
-
-/* front pane, placed above back */
-.front {
-   /* z-index: 2; */
-    /* for firefox 31 */
-    transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);   
-    background-color: #3773A7;
-}
-
-/* back, initially hidden pane */
-.back {
-    transform: rotateY(180deg);
-    -webkit-transform:rotateY(180deg);
-    background-color: #3773A7;
-    transform-origin:45.5% 50%;
-    -webkit-transform-origin:45.5% 50%;  
-}
-.courseHighlight{
-    background-color:rgba(156, 217, 234, 255);
-    border-radius: 10px 0px 0px 10px;
-    color:black;
-    margin-left:20px;
-  /*  margin-right: 30px;  */
-}
-
-.contactHeading{
-    height:300px;
-    padding-top: 10%;
-    padding-left: 5%;
-    font-size: 80px;
-}
-
-
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-    color:white;
-    font-size:50px;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
 .Inspiration {
     padding: 10% 0px 10% 0px;
 }
