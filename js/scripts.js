@@ -69,7 +69,7 @@ function homeAnimation(){
         var winHeight=$(window).height();
         var winWidth= $(window).width();
         var aboutH;
-        $('#home').fadeIn(2000);
+        $('.home-bg').fadeIn(2000);
 
         setTimeout(function(){
             $('#aboutInfo').animate({

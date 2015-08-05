@@ -19,13 +19,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
-        padding-right: 300px;
+        padding-left: 70px;
+        padding-right: 250px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -34,7 +34,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
 
     }
@@ -47,7 +47,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
     .tile{
@@ -64,7 +64,7 @@
         font-size:50px;
     }
 
-   .icon{
+    .icon{
         height:50px;
         width:auto;
     }
@@ -121,7 +121,7 @@
     }
     span {
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 28%;
@@ -165,13 +165,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 250px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -181,7 +181,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
 
@@ -231,7 +231,7 @@
     }
     span{
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 27%;
@@ -284,13 +284,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 15px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 150px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 25px;
@@ -300,7 +300,7 @@
         text-align: left;
         font-size: 75px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
 
@@ -350,7 +350,7 @@
     }
     span{
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 23%;
@@ -365,7 +365,11 @@
     #welcome{
         font-size:15px;
     }
-
+    .javaPreview{
+        font-size:20px;
+        font-family:archiveregular;
+        margin-left:100px !important;
+    }
     .htmlh1, .htmlh1_2{
         font-family: archiveregular;
         text-align: left;
@@ -377,7 +381,7 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 100px;
     }
     .htmlDiv{
@@ -464,7 +468,7 @@
     }
     span{
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 18%;
@@ -491,6 +495,10 @@ line-height: normal;
     -moz-border-radius: 8px;
     border-radius: 8px;
     color:white;
+}
+
+.home-bg{
+    display:none;
 }
 
 body{
@@ -750,48 +758,50 @@ a:hover{
     height:auto;
 }
 
-#java{
-    background-color: rgb(67,51, 128);
-    color:white;
+.java{
+    background-color: rgb(67,51, 128) !important;
+    color:white !important;
 }
 #body{
     background-color: white;
     padding-top:0px;
 }
-#python{
-    color:#FFD03F;
-    background-color: #3773A7;
+.python{
+    color:#FFD03F !important;
+    background-color: #3773A7 !important;
 }
-#html{
-    background-color:#F66337;
-    color:white;
+.html{
+    background-color:#F66337 !important;
+    color:white !important;
 }
 .bootCamps{
-    text-align:left; 
-    color:white; 
-    margin-left:20px; 
+    text-align:left;
+    color:white;
+    margin-left:20px;
     font-size: 22px;
 }
 .bootTiming{
-    text-align:center; 
-    color:white; 
-    margin-top:-5px; 
+    text-align:center;
+    color:white;
+    margin-top:-5px;
     font-size: 20px;
 }
 .timeText{
-    text-align:center; 
-    color:white; 
+    text-align:center;
+    color:white;
     padding-top:30px;
 }
 .unityColor{
-    background-color: #FFFFFF;
+    background-color:#ABC565 !important;
     color:white;
 }
-#creamColor{
-  /*  background-color: #EEE3C3; ---> cream color */
+.cppColor{
+    background-color:#92C2C0 !important;
+    color:white;
+}
+.creamColor{
+    /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
-    padding-left: 0px;
-    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -910,138 +920,14 @@ hr{
 #htmlDiv{
     margin-top: -10px;
 }
-#sidImg{
-    width:275px;
-    height:auto;
-    -ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    margin-left: 20px;
-    margin-top: 25px;
-}
-#days_time_flip{
-    width:320px;
-    height:150px;
-    margin-left:-25px;
-}
-#days_flip1{
-    width:320px;
-    height:220px;
-    margin-left:-25px;
-}
-#pricing_flip{
-    width:320px;
-    height:150px;
-    margin-left:10px;
-}
-#topics_flip{
-    width:320px;
-    height:500px;
-}
-#pics_flip{
-    width:320px;
-    height:auto;
-}
-#picture_flip{
-    width:320px;
-    height:240px;
-}
-#picture2_flip {
-    width:320px;
-    height:213px;
-
-}
-/*TIMING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
-     -webkit-transform-origin:53.4% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .timeflip2 {(;
-         -webkit-transform-origin:53.4 50% !important;
-         /*Safari Specific centering */
-     );}
-}
-/*PRICING TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip {
-     -webkit-transform-origin:42.2% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    #pricing_flip {(;
-         -webkit-transform-origin:42.2% 50% !important;
-         /*Safari Specific centering */
-     );}
-}
-/*DATES TILE*/
-_:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
-     -webkit-transform-origin:57.6% 50% !important;
-     /*Safari Specific centering */
- }
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
-    .daysflip2 {(;
-         -webkit-transform-origin:57.6% 50% !important;
-         /*Safari Specific centering */
-     );}
-}
 
 
-.flip-container {
-    perspective:1000;
-    -webkit-perspective: 1000; 
-}
-    /* flip the pane when hovered */
-    .flip-container:hover .flipper, .flip-container.hover .flipper {
-        transform:rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-    }
-
-.flip-container, .front, .back {
-    width: 320px;
-    height: 520px; 
-}
-
-/* flip speed goes here */
-.flipper {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    -webkit-transition:0.6s;
-    -webkit-transform-style: preserve-3d;
-    position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-    backface-visibility: hidden;
-    -webkit-backface-visibility:hidden;
-   position: absolute;
-    top: 0;
-    left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-   /* z-index: 2; */
-    /* for firefox 31 */
-    transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);   
-    background-color: #3773A7;
-}
-
-/* back, initially hidden pane */
-.back {
-    transform: rotateY(180deg);
-    -webkit-transform:rotateY(180deg);
-    background-color: #3773A7;
-    transform-origin:45.5% 50%;
-    -webkit-transform-origin:45.5% 50%;  
-}
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
     border-radius: 10px 0px 0px 10px;
     color:black;
     margin-left:20px;
-  /*  margin-right: 30px;  */
+      margin-right: 30px;
 }
 
 .contactHeading{
@@ -1050,7 +936,12 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
     padding-left: 5%;
     font-size: 80px;
 }
-
+.heading{
+    text-align:center;
+    margin-bottom: 5%;
+    margin-top:0px;
+    font-family: archiveregular;
+}
 
 
 .typed-cursor{
@@ -1162,4 +1053,16 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 
 .cont-about {
     padding-right: 40px;
+}
+
+.small {
+    float: left;
+    width: 20%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.txt-img {
+    float: right;
+    width: 50%;
 }
