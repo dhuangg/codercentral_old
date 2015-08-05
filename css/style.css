@@ -916,47 +916,7 @@ hr{
 #htmlDiv{
     margin-top: -10px;
 }
-#sidImg{
-    width:275px;
-    height:auto;
-    -ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    margin-left: 20px;
-    margin-top: 25px;
-}
-#days_time_flip{
-    width:320px;
-    height:150px;
-    margin-left:-25px;
-}
-#days_flip1{
-    width:320px;
-    height:220px;
-    margin-left:-25px;
-}
-#pricing_flip{
-    width:320px;
-    height:150px;
-    margin-left:10px;
-}
-#topics_flip{
-    width:320px;
-    height:500px;
-}
-#pics_flip{
-    width:320px;
-    height:auto;
-}
-#picture_flip{
-    width:320px;
-    height:240px;
-}
-#picture2_flip {
-    width:320px;
-    height:213px;
 
-}
 
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
