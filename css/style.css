@@ -19,13 +19,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
-        padding-right: 300px;
+        padding-left: 70px;
+        padding-right: 250px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -34,7 +34,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
 
     }
@@ -47,7 +47,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
     .tile{
@@ -64,7 +64,7 @@
         font-size:50px;
     }
 
-   .icon{
+    .icon{
         height:50px;
         width:auto;
     }
@@ -122,7 +122,7 @@
     span {
         display: block;
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 28%;
@@ -166,13 +166,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 20px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 250px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -182,7 +182,7 @@
         text-align: left;
         font-size: 125px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
 
@@ -233,7 +233,7 @@
     span{
         display: block;
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 27%;
@@ -286,13 +286,13 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 15px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 150px;
     }
     .htmlDiv{
         margin:0px;
         padding-left: 50px;
-        border:0px; 
+        border:0px;
         background-color:#F66337;
         padding-top: 50px;
         padding-bottom: 25px;
@@ -302,7 +302,7 @@
         text-align: left;
         font-size: 75px;
         color: white;
-        margin-top: 0px;  
+        margin-top: 0px;
         padding-left: 65px;
     }
 
@@ -353,7 +353,7 @@
     span{
         display: block;
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 23%;
@@ -380,7 +380,7 @@
     .paragraph{
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 12px;
-        padding-left: 70px;  
+        padding-left: 70px;
         padding-right: 100px;
     }
     .htmlDiv{
@@ -468,7 +468,7 @@
     span{
         display: block;
         vertical-align: middle;
-        line-height: normal;      
+        line-height: normal;
     }
     #line1{
         padding-top: 18%;
@@ -495,6 +495,10 @@ line-height: normal;
     -moz-border-radius: 8px;
     border-radius: 8px;
     color:white;
+}
+
+.home-bg{
+    display:none;
 }
 
 body{
@@ -754,7 +758,7 @@ a:hover{
     height:auto;
 }
 
-.java{
+#java{
     background-color: rgb(67,51, 128);
     color:white;
 }
@@ -763,39 +767,42 @@ a:hover{
     padding-top:0px;
 }
 .python{
+<<<<<<< HEAD
     color:#FFD03F;
     background-color: #3773A7;
+=======
+    color:#FFD03F !important;
+    background-color: #3773A7 !important;
+>>>>>>> 78b3b39bcc13535cb97c4a157933dd5b1df87ee9
 }
 #html{
     background-color:#F66337;
     color:white;
 }
 .bootCamps{
-    text-align:left; 
-    color:white; 
-    margin-left:20px; 
+    text-align:left;
+    color:white;
+    margin-left:20px;
     font-size: 22px;
 }
 .bootTiming{
-    text-align:center; 
-    color:white; 
-    margin-top:-5px; 
+    text-align:center;
+    color:white;
+    margin-top:-5px;
     font-size: 20px;
 }
 .timeText{
-    text-align:center; 
-    color:white; 
+    text-align:center;
+    color:white;
     padding-top:30px;
 }
 .unityColor{
     background-color: #FFFFFF;
     color:white;
 }
-#creamColor{
-  /*  background-color: #EEE3C3; ---> cream color */
+.creamColor{
+    /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
-    padding-left: 0px;
-    padding-right:0px;
 }
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -949,52 +956,52 @@ hr{
 }
 /*TIMING TILE*/
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .timeflip2 {
-     -webkit-transform-origin:53.4% 50% !important;
-     /*Safari Specific centering */
- }
+    -webkit-transform-origin:53.4% 50% !important;
+    /*Safari Specific centering */
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .timeflip2 {(;
-         -webkit-transform-origin:53.4 50% !important;
-         /*Safari Specific centering */
-     );}
+        -webkit-transform-origin:53.4 50% !important;
+        /*Safari Specific centering */
+    );}
 }
 /*PRICING TILE*/
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root #pricing_flip {
-     -webkit-transform-origin:42.2% 50% !important;
-     /*Safari Specific centering */
- }
+    -webkit-transform-origin:42.2% 50% !important;
+    /*Safari Specific centering */
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     #pricing_flip {(;
-         -webkit-transform-origin:42.2% 50% !important;
-         /*Safari Specific centering */
-     );}
+        -webkit-transform-origin:42.2% 50% !important;
+        /*Safari Specific centering */
+    );}
 }
 /*DATES TILE*/
 _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
-     -webkit-transform-origin:57.6% 50% !important;
-     /*Safari Specific centering */
- }
+    -webkit-transform-origin:57.6% 50% !important;
+    /*Safari Specific centering */
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0) {
     .daysflip2 {(;
-         -webkit-transform-origin:57.6% 50% !important;
-         /*Safari Specific centering */
-     );}
+        -webkit-transform-origin:57.6% 50% !important;
+        /*Safari Specific centering */
+    );}
 }
 
 
 .flip-container {
     perspective:1000;
-    -webkit-perspective: 1000; 
+    -webkit-perspective: 1000;
 }
-    /* flip the pane when hovered */
-    .flip-container:hover .flipper, .flip-container.hover .flipper {
-        transform:rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-    }
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform:rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
     width: 320px;
-    height: 520px; 
+    height: 520px;
 }
 
 /* flip speed goes here */
@@ -1010,17 +1017,17 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
 .front, .back {
     backface-visibility: hidden;
     -webkit-backface-visibility:hidden;
-   position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
 }
 
 /* front pane, placed above back */
 .front {
-   /* z-index: 2; */
+    /* z-index: 2; */
     /* for firefox 31 */
     transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);   
+    -webkit-transform: rotateY(0deg);
     background-color: #3773A7;
 }
 
@@ -1030,14 +1037,14 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
     -webkit-transform:rotateY(180deg);
     background-color: #3773A7;
     transform-origin:45.5% 50%;
-    -webkit-transform-origin:45.5% 50%;  
+    -webkit-transform-origin:45.5% 50%;
 }
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
     border-radius: 10px 0px 0px 10px;
     color:black;
     margin-left:20px;
-  /*  margin-right: 30px;  */
+      margin-right: 30px;
 }
 
 .contactHeading{
@@ -1046,7 +1053,12 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
     padding-left: 5%;
     font-size: 80px;
 }
-
+.heading{
+    text-align:center;
+    margin-bottom: 5%;
+    margin-top:0px;
+    font-family: archiveregular;
+}
 
 
 .typed-cursor{
@@ -1071,4 +1083,103 @@ _:-webkit-full-screen, _::-webkit-full-page-media, _:future, :root .daysflip2 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+.Inspiration {
+    padding: 10% 0px 10% 0px;
+}
+
+#btn {
+    background-color: rgb(85,255,153)!important;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.left-offset {
+    padding-left: 2%;
+}
+
+.weird-buffer {
+    padding-top: 5%!important;
+}
+
+.white-bottom {
+    background-color: white;
+}
+
+.bold {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.black-top {
+    background-color: black;
+    color: white;
+    text-align: center!important;
+    padding: 5% 0px 5% 0px;
+    margin-bottom: 3%;
+}
+
+.buffer-small {
+    height: 75px;
+}
+
+.complicated {
+    padding-top: 125px;
+}
+
+.buffer {
+    height: 110px;
+}
+
+#bottom2 {
+    background-color: white;
+    margin: 1% 4% 0px 4%;
+}
+
+#Description {
+    padding: 2% 0px 0px 0px;
+}
+
+.top {
+    background-color: white;
+    margin: 100px 40px 10px 40px;
+    padding: 60px 10px 10px 40px;
+    color: rgb(100, 100, 100);
+}
+
+#top2 {
+    text-align: center;
+    background-color: white;
+    margin: 100px 50px 0px 50px;
+}
+
+.red {
+    background-color: red!important
+}
+
+.content-top {
+    font-size: 20px;
+}
+
+.about {
+    padding: 60px 10px 10px 50px;
+    margin: 10px 40px 10px 40px;
+    background-color: white;
+    color: black;
+}
+
+.cont-about {
+    padding-right: 40px;
+}
+
+.small {
+    float: left;
+    width: 20%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.txt-img {
+    float: right;
+    width: 50%;
 }
