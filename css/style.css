@@ -762,7 +762,7 @@ a:hover{
     background-color: white;
     padding-top:0px;
 }
-#python{
+.python{
     color:#FFD03F;
     background-color: #3773A7;
 }
@@ -805,14 +805,6 @@ a:hover{
     text-align: right;
     margin-top: -10px;
     margin-bottom: 0;
-}
-#footersPython{
-    text-align: right;
-    margin-bottom: 0;
-    color:#FFD03F;
-    background-color: #3773A7;
-    padding-right: 50px;
-    margin-top: 50px;
 }
 
 #circle-body{
