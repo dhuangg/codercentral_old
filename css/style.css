@@ -120,7 +120,6 @@
         font-size: 24px;
     }
     span {
-        display: block;
         vertical-align: middle;
         line-height: normal;
     }
@@ -231,7 +230,6 @@
         font-size: 18px;
     }
     span{
-        display: block;
         vertical-align: middle;
         line-height: normal;
     }
@@ -351,7 +349,6 @@
         font-size: 12px;
     }
     span{
-        display: block;
         vertical-align: middle;
         line-height: normal;
     }
@@ -470,7 +467,6 @@
         font-size: 11px;
     }
     span{
-        display: block;
         vertical-align: middle;
         line-height: normal;
     }
@@ -797,6 +793,7 @@ a:hover{
 }
 .unityColor{
     background-color:#ABC565 !important;
+
     color:white;
 }
 .cppColor{
@@ -924,7 +921,6 @@ hr{
 #htmlDiv{
     margin-top: -10px;
 }
-
 
 .courseHighlight{
     background-color:rgba(156, 217, 234, 255);
