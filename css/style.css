@@ -839,6 +839,12 @@ a:hover{
     position: absolute;
 }
 
+.center-span{
+    display: block;
+    vertical-align: middle;
+    line-height: normal;      
+}
+
 #course-circle{
     background-color: #3B92CB;
     font-family: archiveregular;
