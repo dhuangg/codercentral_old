@@ -845,33 +845,32 @@ a:hover{
     line-height: normal;      
 }
 
+#course-circle, #python-circle, #web-circle, #java-circle, #cpp-circle,
+    #unity-circle, #graphics-circle{
+    font-family: archiveregular;
+}
+
+
 #course-circle{
     background-color: #3B92CB;
-    font-family: archiveregular;
 }
 #python-circle{
     background-color: #2D63B7;
-    font-family: archiveregular;
 }
 #web-circle{
     background-color: #DD874F;
-    font-family: archiveregular;
 }
 #java-circle{
     background-color: #663A98;
-    font-family: archiveregular;
 }
 #cpp-circle{
     background-color: #92C2C0;
-    font-family: archiveregular;
 }
 #unity-circle{
     background-color: #ABC565;
-    font-family: archiveregular;
 }
 #graphics-circle{
     background-color: #C15562;
-    font-family: archiveregular;
 }
 
 #courses-footer{
