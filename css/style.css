@@ -11,6 +11,10 @@
 
 }
 
+html,body{
+    height:100%;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) {
     #home{
@@ -804,6 +808,7 @@ a:hover{
     /*  background-color: #EEE3C3; ---> cream color */
     background-color: #E9EAED;  /*  ---> messenger chat color    */
 }
+
 .coveredTopics{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-left: 100px;
