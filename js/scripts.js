@@ -16,9 +16,6 @@ jQuery(document).ready(function(){
 function introduction(){
     var introText=$(".element");
     var outro=$('.outro');
-    $('body').on('click',function(){
-        window.location = "homepage.html";
-    });
     introText.typed({
         strings: ["} Coder.Central();"],
         // typing speed
