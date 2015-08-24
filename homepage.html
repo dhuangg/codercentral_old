@@ -2,9 +2,11 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>Coder Central</title>
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/sweetalert.css" type="text/css" rel="stylesheet"/>
     <link rel = "shortcut icon" href = "images/favicon.ico">
 </head>
 <body>
@@ -364,11 +366,19 @@
             </div>
     </div>
 </div>
-
     <script type="text/javascript" src='js/jquery-1.11.3.js'></script>
     <script type="text/javascript" src='js/jquery-2.1.4.min.js'></script>
     <script type="text/javascript" src='js/bootstrap.min.js'></script>
     <script type="text/javascript" src="js/atbo-fadethrough-1.0.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
     <script type="text/javascript" src='js/scripts.js'></script>
+    <script>
+        swal({
+            title: "Heard of Coder Con?",
+            text: "Join us on August 29th at Zoho to build the app of your dreams. No experience necessary! Get tickets and more information" +
+            "at www.codercon.org",
+            imageUrl: "images/codercon.png"
+        });
+    </script>
 </body>
 </html>
