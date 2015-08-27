@@ -762,6 +762,12 @@ a:hover{
     height:auto;
 }
 
+.path{
+    width:250px;
+    height:auto;
+    border-radius:10%;
+}
+
 .java{
     background-color: rgb(67,51, 128) !important;
     color:white !important;
